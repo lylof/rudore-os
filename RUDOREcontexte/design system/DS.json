@@ -1,0 +1,176 @@
+{
+    "designSystem": {
+        "name": "RUDORE",
+        "version": "1.0.0",
+        "globalRules": {
+            "geometry": "BRUTALIST - Strict 90° sharp angles. No border-radius allowed unless explicitly specified.",
+            "primaryColor": "#FC532A"
+        },
+        "tokens": {
+            "colors": {
+                "brand": {
+                    "primary": "#FC532A",
+                    "hover": "#FF6B42",
+                    "active": "#E43B12",
+                    "whitePure": "#FFFFFF"
+                },
+                "semantic": {
+                    "success": "#2DD4BF",
+                    "warning": "#F59E0B",
+                    "error": "#EF4444",
+                    "info": "#3B82F6"
+                },
+                "modes": {
+                    "dark": {
+                        "background": {
+                            "app": "#1A1C20",
+                            "card": "#22252C",
+                            "sidebar": "#14161A",
+                            "borderSubtle": "#2D2F36"
+                        },
+                        "text": {
+                            "primary": "#ECEEF2",
+                            "secondary": "#A3A5A8",
+                            "disabled": "#6E7179"
+                        }
+                    },
+                    "light": {
+                        "background": {
+                            "app": "#FAFAFA",
+                            "card": "#FFFFFF",
+                            "sidebar": "#F5F5F5",
+                            "borderSubtle": "#E5E7EB"
+                        },
+                        "text": {
+                            "primary": "#1A1A1A",
+                            "secondary": "#666666",
+                            "disabled": "#999999"
+                        }
+                    }
+                }
+            },
+            "spacing": {
+                "scale": {
+                    "4": "4px",
+                    "8": "8px",
+                    "12": "12px",
+                    "16": "16px",
+                    "24": "24px",
+                    "32": "32px",
+                    "48": "48px"
+                },
+                "usage": {
+                    "minimal": "4px",
+                    "smallGaps": "8px",
+                    "mediumGaps": "12px",
+                    "standardPadding": "16px",
+                    "sectionSpacing": "24px",
+                    "largeSpacing": "32px",
+                    "extraLarge": "48px"
+                }
+            },
+            "geometry": {
+                "borderRadius": {
+                    "global": "0px",
+                    "cards": "0px",
+                    "buttons": "0px",
+                    "progressBars": "0px",
+                    "sidebarItems": "0px",
+                    "badgesOnly": "2px"
+                }
+            },
+            "typography": {
+                "fontFamilies": {
+                    "heading": "Bricolage Grotesque, sans-serif",
+                    "body": "Google Sans, sans-serif"
+                },
+                "hierarchy": {
+                    "pageTitle": {
+                        "family": "Bricolage Grotesque",
+                        "size": "32px",
+                        "weight": "800",
+                        "letterSpacing": "-0.02em",
+                        "textTransform": "uppercase"
+                    },
+                    "sectionTitle": {
+                        "family": "Google Sans",
+                        "size": "14px",
+                        "weight": "400",
+                        "letterSpacing": "0.1em",
+                        "textTransform": "uppercase"
+                    },
+                    "cardTitle": {
+                        "family": "Google Sans",
+                        "size": "11px",
+                        "weight": "400",
+                        "letterSpacing": "0.12em",
+                        "textTransform": "uppercase"
+                    },
+                    "largeValue": {
+                        "family": "Bricolage Grotesque",
+                        "size": "48px",
+                        "weight": "800",
+                        "letterSpacing": "-0.03em"
+                    },
+                    "mediumValue": {
+                        "family": "Bricolage Grotesque",
+                        "size": "36px",
+                        "weight": "800",
+                        "letterSpacing": "-0.02em"
+                    },
+                    "projectName": {
+                        "family": "Google Sans",
+                        "size": "18px",
+                        "weight": "800",
+                        "letterSpacing": "-0.01em"
+                    },
+                    "bodyText": {
+                        "family": "Google Sans",
+                        "size": "14px",
+                        "weight": "400",
+                        "letterSpacing": "0"
+                    },
+                    "captionLabel": {
+                        "family": "Google Sans",
+                        "size": "11px",
+                        "weight": "300",
+                        "letterSpacing": "0.08em",
+                        "textTransform": "uppercase"
+                    }
+                }
+            }
+        },
+        "components": {
+            "buttons": {
+                "primary": {
+                    "backgroundColor": "{colors.brand.primary}",
+                    "textColor": "{colors.brand.whitePure}",
+                    "borderRadius": "{geometry.borderRadius.buttons}",
+                    "hoverState": "{colors.brand.hover}"
+                },
+                "secondary": {
+                    "backgroundColor": "transparent",
+                    "border": "1px solid {colors.modes.dark.borderSubtle}",
+                    "borderRadius": "{geometry.borderRadius.buttons}"
+                }
+            },
+            "badges": {
+                "statusTag": {
+                    "borderRadius": "{geometry.borderRadius.badgesOnly}",
+                    "padding": "{spacing.scale.4} {spacing.scale.8}",
+                    "font": "{typography.hierarchy.cardTitle}"
+                }
+            },
+            "progressBars": {
+                "track": {
+                    "backgroundColor": "{colors.modes.dark.borderSubtle}",
+                    "borderRadius": "{geometry.borderRadius.progressBars}"
+                },
+                "fill": {
+                    "backgroundColor": "{colors.brand.primary}",
+                    "borderRadius": "{geometry.borderRadius.progressBars}"
+                }
+            }
+        }
+    }
+}

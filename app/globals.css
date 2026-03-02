@@ -1,0 +1,546 @@
+@import "tailwindcss";
+
+/* ==============================
+   LIGHT THEME (Default) — RUDORE Strict System
+   ============================== */
+:root,
+[data-theme="light"] {
+  --app-bg: #FAFAFA;
+  --panel-bg: #FFFFFF;
+  --sidebar-bg: #F5F5F5;
+  --text-main: #1A1A1A;
+  --text-secondary: #666666;
+  --text-disabled: #999999;
+
+  --rudore-orange: #FC532A;
+  --rudore-orange-hover: #FF6B42;
+  --rudore-orange-active: #E43B12;
+  --rudore-border: #E5E7EB;
+
+  --rudore-success: #2DD4BF;
+  --rudore-warning: #F59E0B;
+  --rudore-error: #EF4444;
+  --rudore-info: #3B82F6;
+
+  --rudore-bg: var(--app-bg);
+  --rudore-panel: var(--panel-bg);
+  --rudore-sidebar-bg: var(--sidebar-bg);
+  --rudore-text: var(--text-main);
+  --rudore-light: var(--text-main);
+
+  --rudore-surface: #F5F5F5;
+  --rudore-surface-hover: #EAEAEA;
+  --rudore-input-bg: var(--panel-bg);
+  --rudore-backdrop: rgba(26, 26, 26, 0.4);
+
+  --rudore-scrollbar-track: var(--app-bg);
+  --rudore-scrollbar-thumb: var(--rudore-border);
+}
+
+/* ==============================
+   DARK THEME
+   ============================== */
+[data-theme="dark"] {
+  --app-bg: #1A1C20;
+  --panel-bg: #22252C;
+  --sidebar-bg: #14161A;
+  --text-main: #ECEEF2;
+  --text-secondary: #A3A5A8;
+  --text-disabled: #6E7179;
+
+  --rudore-orange: #FC532A;
+  --rudore-orange-hover: #FF6B42;
+  --rudore-orange-active: #E43B12;
+  --rudore-border: #2D2F36;
+
+  --rudore-success: #2DD4BF;
+  --rudore-warning: #F59E0B;
+  --rudore-error: #EF4444;
+  --rudore-info: #3B82F6;
+
+  --rudore-bg: var(--app-bg);
+  --rudore-panel: var(--panel-bg);
+  --rudore-sidebar-bg: var(--sidebar-bg);
+  --rudore-text: var(--text-main);
+  --rudore-light: var(--text-main);
+
+  --rudore-surface: #14161A;
+  --rudore-surface-hover: #22252C;
+  --rudore-input-bg: var(--panel-bg);
+  --rudore-backdrop: rgba(0, 0, 0, 0.7);
+
+  --rudore-scrollbar-track: var(--app-bg);
+  --rudore-scrollbar-thumb: var(--rudore-border);
+}
+
+@theme {
+  --color-rudore-black: var(--app-bg);
+  --color-rudore-panel: var(--panel-bg);
+  --color-rudore-sidebar: var(--sidebar-bg);
+  --color-rudore-border: var(--rudore-border);
+  --color-rudore-orange: var(--rudore-orange);
+  --color-rudore-orange-hover: var(--rudore-orange-hover);
+  --color-rudore-orange-active: var(--rudore-orange-active);
+  --color-rudore-text: var(--rudore-text);
+  --color-rudore-text-secondary: var(--text-secondary);
+  --color-rudore-text-disabled: var(--text-disabled);
+  --color-rudore-light: var(--rudore-light);
+
+  --color-rudore-success: var(--rudore-success);
+  --color-rudore-warning: var(--rudore-warning);
+  --color-rudore-error: var(--rudore-error);
+  --color-rudore-info: var(--rudore-info);
+
+  --font-sans: "Google Sans", "Inter", sans-serif;
+  --font-header: "Bricolage Grotesque", sans-serif;
+  --font-mono: "ui-monospace", "SFMono-Regular", "Menlo", "Monaco", "Consolas", "monospace";
+}
+
+/* ==============================
+   TYPOGRAPHY HIERARCHY (AS PER DS.JSON)
+   ============================== */
+.text-page-title {
+  font-family: var(--font-header);
+  font-size: 32px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.text-section-title {
+  font-family: var(--font-sans);
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.text-card-title {
+  font-family: var(--font-sans);
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.text-large-value {
+  font-family: var(--font-header);
+  font-size: 48px;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+}
+
+.text-caption-label {
+  font-family: var(--font-sans);
+  font-size: 11px;
+  font-weight: 300;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* ==============================
+   BRUTALIST GEOMETRY (Absolute Rule)
+   ============================== */
+*,
+*::before,
+*::after {
+  border-radius: 0px !important;
+}
+
+/* Exception for specific badges */
+.badge-rounded,
+.badge-rounded * {
+  border-radius: 2px !important;
+}
+
+/* ==============================
+   GLOBAL THEME APPLICATION
+   ============================== */
+body {
+  background-color: var(--rudore-bg);
+  color: var(--rudore-light);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* ==============================
+   LIGHT MODE OVERRIDES for Hardcoded Tailwind Classes
+   Because the codebase has hardcoded 'zinc' and 'black' classes,
+   we re-map them here for LIGHT mode only to ensure a flawless experience.
+   ============================== */
+:root:not([data-theme="dark"]),
+[data-theme="light"] {
+
+  /* ---- BACKGROUNDS ---- */
+  /* The main page uses bg-rudore-black (mapped to var(--rudore-bg) = #E8E8E8) */
+  /* Sidebar uses bg-black. We want it to be Onyx (#141414) */
+  .bg-black {
+    background-color: var(--rudore-sidebar-bg) !important;
+    color: var(--rudore-text) !important;
+  }
+
+  /* Make sure sidebar buttons reset their hover text */
+  .bg-black button:not(.bg-rudore-orange):hover {
+    color: #FC532A !important;
+  }
+
+  .bg-black button {
+    color: #D0D0D0 !important;
+  }
+
+  .bg-black button.text-white {
+    color: #FFFDFD !important;
+  }
+
+  .bg-black .text-rudore-text {
+    color: #A1A1A1 !important;
+  }
+
+  .bg-black .text-xs.font-bold,
+  .bg-black .text-sm.font-bold {
+    color: #FFFDFD !important;
+  }
+
+  /* Logo text in sidebar */
+  .bg-black h1,
+  .bg-black span.font-bold.text-white {
+    color: #FFFDFD !important;
+  }
+
+  /* Panels / Cards -> #FFFDFD */
+  .bg-rudore-panel {
+    background-color: var(--rudore-panel) !important;
+  }
+
+  /* Inner surfaces / gradients -> #F1ECEB or #FFFDFD */
+  .bg-zinc-950,
+  .bg-zinc-950\/50,
+  .bg-zinc-900 {
+    background-color: var(--rudore-panel) !important;
+  }
+
+  .bg-zinc-900\/50,
+  .bg-zinc-900\/70 {
+    background-color: rgba(255, 253, 253, 0.8) !important;
+  }
+
+  .bg-zinc-900\/80 {
+    background-color: #F1ECEB !important;
+  }
+
+  .bg-zinc-800 {
+    background-color: #E8E8E8 !important;
+  }
+
+  .bg-zinc-800\/50 {
+    background-color: rgba(232, 232, 232, 0.5) !important;
+  }
+
+  .bg-zinc-700 {
+    background-color: #D0D0D0 !important;
+  }
+
+  /* Flatten all those dark gradients used on cards to pure white or alabaster surfaces for a clean look */
+  .bg-gradient-to-br {
+    background-image: none !important;
+  }
+
+  .bg-gradient-to-br.from-zinc-900.to-black,
+  .bg-gradient-to-br.from-zinc-800.to-zinc-900 {
+    background: var(--rudore-panel) !important;
+  }
+
+  /* ---- BOTTOM MATRICIELLE SPECIFIC ---- */
+  /* Ensure the matricielle section at bottom merges elegantly */
+  .to-black {
+    --tw-gradient-to: #E8E8E8 !important;
+  }
+
+  /* ---- TEXT COLORS FOR LIGHT THEME ---- */
+  /* White text becomes Onyx (#141414) on the Alabaster/White backgrounds */
+  .text-white {
+    color: #141414 !important;
+  }
+
+  .text-zinc-100,
+  .text-zinc-200,
+  .text-zinc-300 {
+    color: #141414 !important;
+  }
+
+  /* Gray text becomes well-contrasted Onyx variants */
+  .text-zinc-400 {
+    color: #434343 !important;
+  }
+
+  /* onyx-600 */
+  .text-zinc-500 {
+    color: #727272 !important;
+  }
+
+  /* onyx-700 */
+  .text-zinc-600 {
+    color: #434343 !important;
+  }
+
+  .text-zinc-700 {
+    color: #141414 !important;
+  }
+
+  /* Overrides for text color specifically inside the sidebar */
+  .bg-black .text-zinc-400 {
+    color: #a1a1a1 !important;
+  }
+
+  .bg-black .text-white {
+    color: #FFFDFD !important;
+  }
+
+  /* ---- BORDERS ---- */
+  /* Ultra-fine borders for the clean SaaS aesthetic */
+  .border-rudore-border {
+    border-color: var(--rudore-border) !important;
+    border-width: 1px !important;
+  }
+
+  .border-zinc-800 {
+    border-color: #E8E8E8 !important;
+  }
+
+  .border-zinc-800\/50,
+  .border-zinc-800\/40,
+  .border-zinc-800\/30,
+  .border-zinc-800\/60 {
+    border-color: rgba(234, 234, 234, 0.5) !important;
+  }
+
+  .border-zinc-700 {
+    border-color: #E2E2E2 !important;
+    border-width: 1px !important;
+  }
+
+  .border-zinc-600 {
+    border-color: #a1a1a1 !important;
+  }
+
+  /* Ensure sidebar right border exists but is subtle */
+  .bg-black.border-r {
+    border-right-color: #0c0c0c !important;
+  }
+
+  /* ---- HEADER STICKY TRANSLUCENCY ---- */
+  .bg-rudore-black\/50 {
+    background-color: rgba(232, 232, 232, 0.85) !important;
+  }
+
+  /* ---- CARDS & SHADOWS ---- */
+  /* Minimalist shadows: no heavy dark blobs */
+  /* Retour aux ombres simples et subtiles comme demandé */
+  .shadow-lg {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05) !important;
+  }
+
+  .shadow-md {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03) !important;
+  }
+
+  .shadow-sm {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.02) !important;
+  }
+
+  .shadow-brutalist {
+    box-shadow: 0 4px 12px rgba(252, 83, 42, 0.08) !important;
+  }
+
+  .shadow-black\/30 {
+    --tw-shadow-color: rgba(20, 20, 20, 0.05) !important;
+  }
+
+  /* ---- STATUS BADGE BACKGROUNDS (Tints) ---- */
+  .bg-emerald-950\/30 {
+    background-color: rgba(5, 150, 105, 0.08) !important;
+  }
+
+  .bg-orange-950\/30 {
+    background-color: rgba(252, 83, 42, 0.08) !important;
+  }
+
+  .bg-blue-950\/30 {
+    background-color: rgba(37, 99, 235, 0.08) !important;
+  }
+
+  .bg-purple-950\/30 {
+    background-color: rgba(147, 51, 234, 0.08) !important;
+  }
+
+  .border-emerald-900\/50 {
+    border-color: rgba(5, 150, 105, 0.15) !important;
+  }
+
+  .border-orange-900\/50 {
+    border-color: rgba(252, 83, 42, 0.15) !important;
+  }
+
+  .border-blue-900\/50 {
+    border-color: rgba(37, 99, 235, 0.15) !important;
+  }
+
+  .border-purple-900\/50 {
+    border-color: rgba(147, 51, 234, 0.15) !important;
+  }
+
+  /* ---- KANBAN & COMPLEXITY BADGE BACKGROUNDS ---- */
+  .bg-emerald-900\/40 {
+    background-color: rgba(5, 150, 105, 0.08) !important;
+    color: #059669 !important;
+  }
+
+  .bg-blue-900\/40 {
+    background-color: rgba(37, 99, 235, 0.08) !important;
+    color: #2563eb !important;
+  }
+
+  .bg-yellow-900\/40 {
+    background-color: rgba(202, 138, 4, 0.08) !important;
+    color: #ca8a04 !important;
+  }
+
+  .bg-orange-900\/40 {
+    background-color: rgba(252, 83, 42, 0.08) !important;
+    color: #e93104 !important;
+  }
+
+  .bg-red-900\/40 {
+    background-color: rgba(220, 38, 38, 0.08) !important;
+    color: #dc2626 !important;
+  }
+
+  .bg-purple-900\/40 {
+    background-color: rgba(147, 51, 234, 0.08) !important;
+    color: #9333ea !important;
+  }
+
+  .border-t-zinc-600 {
+    border-top-color: #EAEAEA !important;
+  }
+
+  .border-t-zinc-700 {
+    border-top-color: #E8E8E8 !important;
+  }
+
+  /* ---- INPUTS & SELECTS ---- */
+  select,
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="number"],
+  input[type="date"],
+  textarea {
+    background-color: var(--rudore-panel) !important;
+    border-color: var(--rudore-border) !important;
+    color: var(--rudore-text) !important;
+  }
+
+  select:focus,
+  input:focus,
+  textarea:focus {
+    border-color: #FC532A !important;
+    box-shadow: 0 0 0 2px rgba(252, 83, 42, 0.1) !important;
+  }
+
+  /* ---- MODAL OVERLAY ---- */
+  .bg-black\/70 {
+    background-color: rgba(20, 20, 20, 0.4) !important;
+  }
+
+  .bg-black\/80 {
+    background-color: rgba(20, 20, 20, 0.3) !important;
+  }
+
+  /* ---- DIVIDERS ---- */
+  .bg-zinc-800 {
+    background-color: #D0D0D0 !important;
+  }
+
+  .w-px.bg-zinc-800 {
+    background-color: #D0D0D0 !important;
+  }
+
+  /* ---- HOVER STATES ---- */
+  .hover\:bg-zinc-900\/50:hover {
+    background-color: #F1ECEB !important;
+  }
+
+  .hover\:bg-zinc-800\/50:hover {
+    background-color: #E8E8E8 !important;
+  }
+
+  .hover\:bg-zinc-800:hover {
+    background-color: #D0D0D0 !important;
+  }
+
+  .hover\:bg-zinc-700:hover {
+    background-color: #a1a1a1 !important;
+  }
+
+  .bg-black .hover\:bg-zinc-900\/50:hover {
+    background-color: #0c0c0c !important;
+  }
+
+  /* Text hover */
+  .hover\:text-white:hover {
+    color: #FC532A !important;
+  }
+
+  .bg-black .hover\:text-white:hover {
+    color: #FFFDFD !important;
+  }
+
+  /* ---- TOGGLE SWITCH ---- */
+  .bg-zinc-700 {
+    background-color: #D0D0D0 !important;
+  }
+
+  /* ---- OPACITY overrides ---- */
+  .opacity-70 {
+    opacity: 0.9 !important;
+  }
+}
+
+/* ==============================
+   SCROLLBAR (Default fallback)
+   ============================== */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--rudore-scrollbar-track, #09090b);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--rudore-scrollbar-thumb, #27272a);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--rudore-orange, #f97316);
+}
+
+/* --- Utility Classes --- */
+.scrollbar-thin::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: var(--rudore-border);
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

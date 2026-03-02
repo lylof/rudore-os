@@ -1,0 +1,173 @@
+# STRUCTURE DU GOOGLE SHEETS POUR RUDORE
+# À copier dans Google Sheets
+
+================================================================================
+ONGLET 1: MATRICE DE RÉFÉRENCE
+================================================================================
+
+| Complexité      | Temps Min | Temps Max | Points Base | Exemples de Tâches                    |
+|-----------------|-----------|-----------|-------------|---------------------------------------|
+| Très Simple     | 0         | 1         | 10          | Typo, changement couleur              |
+| Simple          | 1         | 3         | 25          | Petit composant, page statique        |
+| Moyen           | 3         | 8         | 50          | Fonctionnalité complète, workflow     |
+| Complexe        | 8         | 16        | 100         | Module complet, système paiement      |
+| Très Complexe   | 16        | 40        | 200         | Système complet, refonte majeure      |
+| Critique        | 40        | 100+      | 400         | Lancement produit, migration système  |
+
+| Qualité         | Multiplicateur | Description                           |
+|-----------------|----------------|---------------------------------------|
+| Refusé          | 0.5            | À refaire complètement                |
+| Acceptable      | 0.8            | OK avec corrections mineures          |
+| Bon             | 1.0            | Conforme aux spécifications           |
+| Excellent       | 1.2            | Dépasse les attentes                  |
+| Exceptionnel    | 1.5            | Innovation majeure, impact stratégique|
+
+| Niveau          | Multiplicateur | Description                           |
+|-----------------|----------------|---------------------------------------|
+| Junior          | 0.8            | < 2 ans expérience                    |
+| Mid             | 1.0            | 2-5 ans expérience                    |
+| Senior          | 1.3            | 5+ ans, expertise technique           |
+| Lead            | 1.5            | Leadership + expertise exceptionnelle |
+
+
+================================================================================
+ONGLET 2: TRACKING TÂCHES (Principal)
+================================================================================
+
+Formule pour colonne "Points Finaux": =E2*F2*G2
+
+| Builder | Projet | Tâche               | Date  | PB  | MQ  | MR  | Points | Statut   | Notes        |
+|---------|--------|---------------------|-------|-----|-----|-----|--------|----------|--------------|
+| Alice   | KOODI  | API Stripe          | 01/02 | 50  | 1.2 | 1.0 | 60     | Validé   | Excellent    |
+| Bob     | KOODI  | UI Home Page        | 01/02 | 25  | 1.0 | 1.0 | 25     | Validé   | Bon travail  |
+| Charlie | MIAMÈ  | Auth System         | 02/02 | 100 | 0.8 | 0.8 | 64     | Review   | Quelques bugs|
+| Alice   | KOODI  | Dashboard Analytics | 03/02 | 100 | 1.5 | 1.0 | 150    | En cours | -            |
+
+Formules utiles:
+- Total Points Builder: =SOMME.SI(A:A,"Alice",H:H)
+- Moyenne Qualité: =MOYENNE.SI(A:A,"Alice",F:F)
+- Count Tâches: =NB.SI(A:A,"Alice")
+
+
+================================================================================
+ONGLET 3: DASHBOARD BUILDERS
+================================================================================
+
+| Builder | Projet     | Total Points | Tâches | Moy. Qualité | Moy. Points/Tâche | Ranking |
+|---------|------------|--------------|--------|--------------|-------------------|---------|
+| Alice   | KOODI      | 560          | 12     | 1.15         | 46.7              | 1       |
+| Bob     | KOODI      | 325          | 15     | 0.95         | 21.7              | 3       |
+| Charlie | MIAMÈ      | 420          | 10     | 1.05         | 42.0              | 2       |
+
+Formules:
+- Total Points: =SOMME.SI('Tracking Tâches'!A:A,A2,'Tracking Tâches'!H:H)
+- Tâches: =NB.SI('Tracking Tâches'!A:A,A2)
+- Moy Qualité: =MOYENNE.SI('Tracking Tâches'!A:A,A2,'Tracking Tâches'!F:F)
+- Ranking: =RANG(C2,$C$2:$C$10,0)
+
+
+================================================================================
+ONGLET 4: CALCUL BONUS (Agence)
+================================================================================
+
+PARAMÈTRES DU MOIS:
+| Paramètre                  | Valeur        |
+|----------------------------|---------------|
+| Revenus Agence (FCFA)      | 10,000,000    |
+| % Réservé Bonus            | 15%           |
+| Budget Total Bonus         | 1,500,000     |
+| Total Points Distribués    | 5,000         |
+| Valeur du Point (FCFA)     | 300           |
+
+Formule Valeur Point: =C2*C3/C5
+
+BONUS PAR BUILDER:
+| Builder | Points | Salaire Base | Bonus      | Total      |
+|---------|--------|--------------|------------|------------|
+| Alice   | 560    | 150,000      | 168,000    | 318,000    |
+| Bob     | 325    | 120,000      | 97,500     | 217,500    |
+| Charlie | 420    | 100,000      | 126,000    | 226,000    |
+
+Formule Bonus: =B2*$C$6
+Formule Total: =C2+D2
+
+
+================================================================================
+ONGLET 5: CALCUL ÉQUITÉ (Studio)
+================================================================================
+
+PROJET: KOODI MVP
+Pool Équité Builders: 25%
+Total Points Projet: 5,000
+
+| Builder | Points | % du Total | Équité Acquise | Mois Service | Équité Vestée |
+|---------|--------|------------|----------------|--------------|---------------|
+| Alice   | 2,400  | 48%        | 12.0%          | 12           | 3.0%          |
+| Bob     | 1,500  | 30%        | 7.5%           | 8            | 1.25%         |
+| Charlie | 1,100  | 22%        | 5.5%           | 6            | 0.0%          |
+
+Formules:
+- % Total: =B2/$B$5
+- Équité Acquise: =C2*$C$2
+- Équité Vestée (avec cliff 6 mois, vesting 48 mois): 
+  =SI(E2<6,0,D2*(E2/48))
+
+
+================================================================================
+ONGLET 6: ANALYTICS
+================================================================================
+
+GRAPHIQUES À CRÉER:
+1. Évolution Points par Builder (ligne)
+2. Distribution Complexité Tâches (camembert)
+3. Moyenne Qualité par Builder (barre)
+4. Points par Projet (barre empilée)
+5. Évolution Valeur du Point (ligne)
+
+MÉTRIQUES CLÉS:
+| Métrique                      | Valeur | Target | Status |
+|-------------------------------|--------|--------|--------|
+| Points Moyens/Tâche           | 42.5   | 40     | ✅     |
+| Moyenne Qualité               | 1.08   | 1.0    | ✅     |
+| % Tâches Excellent+           | 35%    | 30%    | ✅     |
+| Délai Moyen Completion (jours)| 3.2    | 3.0    | ⚠️     |
+| Satisfaction Équipe           | 8.2/10 | 8.0    | ✅     |
+
+
+================================================================================
+NOTES D'UTILISATION
+================================================================================
+
+WORKFLOW QUOTIDIEN:
+
+1. MANAGER crée tâche Trello
+2. MANAGER attribue complexité → PB
+3. BUILDER travaille
+4. MANAGER évalue qualité → MQ
+5. SYSTÈME calcule Points Finaux (PB × MQ × MR)
+6. HEBDO: Update spreadsheet
+7. MENSUEL: Calcul bonus/équité
+
+CONVENTIONS:
+
+- Dates: Format JJ/MM/AAAA
+- Points: Nombres entiers
+- Multiplicateurs: 1 décimale (ex: 1.2)
+- Statut: En cours | Review | Validé | Archivé
+- Projets: MAJUSCULES (KOODI, MIAMÈ, etc.)
+
+PROTECTION DES DONNÉES:
+
+- Partager en "Lecture" à toute l'équipe
+- "Modification" réservée aux managers
+- Historique des versions activé
+- Backup hebdomadaire
+
+VALIDATIONS (à ajouter):
+
+- PB doit être: 10, 25, 50, 100, 200, ou 400
+- MQ doit être: 0.5, 0.8, 1.0, 1.2, ou 1.5
+- MR doit être: 0.8, 1.0, 1.3, ou 1.5
+- Dates ne peuvent pas être futures
+
+================================================================================

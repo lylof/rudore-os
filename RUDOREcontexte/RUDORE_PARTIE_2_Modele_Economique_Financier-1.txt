@@ -1,0 +1,1125 @@
+STRATÉGIE COMPLÈTE RUDORE & Co
+Le Premier Venture Studio Panafricain au Togo
+
+PARTIE 2 : MODÈLE ÉCONOMIQUE & FINANCIER
+Comment L'Argent Circule et Pourquoi Ça Marche
+
+TABLE DES MATIÈRES - PARTIE 2
+1. Les Flux Financiers : D'Où Vient L'Argent et Où Va-t-Il ?
+2. L'Agence : Notre Moteur Financier Détaillé
+3. Le Studio : Créer du Patrimoine Sans S'Endetter
+4. Le Modèle d'Équité 60/25/15 : Pourquoi Ces Chiffres ?
+5. Le Vesting : Comment Protéger Tout le Monde
+6. La Structure Juridique : ManCo/Trust Expliqué Simplement
+7. Les Aspects Légaux Togolais (Loi de Finances 2025, OHADA)
+8. Les Mécanismes de Sortie : Comment Tout le Monde Gagne
+
+1. LES FLUX FINANCIERS : D'OÙ VIENT L'ARGENT ET OÙ VA-T-IL ?
+1.1. Le Schéma Global (Version Simple)
+Imaginez RUDORE comme une maison avec plusieurs pièces. L'argent entre par la porte principale (l'Agence), circule dans les différentes pièces, et finit par créer de la richesse pour tout le monde.
++-------------------------------------------------------------+
+¦                    ?? FLUX D'ARGENT RUDORE                   ¦
++-------------------------------------------------------------+
+
+   1?? ENTRÉE D'ARGENT (L'Agence)
+   ?
+   CLIENTS B2B paient pour nos services
+   Exemple : 15 000 000 FCFA par mois
+   
+   ?
+   
+   2?? CALCUL DES MARGES (Les Étapes de l'Argent)
+   
+   • Chiffre d'Affaires (CA) : 15 000 000 FCFA
+   • Coûts directs (serveurs, licences) : -40% = 6 000 000 FCFA
+   • Marge Brute : 60% = 9 000 000 FCFA restants
+   
+   • Coûts de livraison (salaires équipe) : -30% = 4 500 000 FCFA
+   • Marge de Livraison : 70% de la marge brute = 6 300 000 FCFA
+   
+   • Frais fixes (loyer, électricité, admin) : -10% = 1 500 000 FCFA
+   • Marge Nette : 25% du CA = 3 750 000 FCFA
+   
+   ?
+   
+   3?? RÉPARTITION DE LA MARGE NETTE
+   
+   • 80% restent dans l'Agence : 3 000 000 FCFA
+     ? Trésorerie de sécurité
+     ? Investissements équipements
+     ? Primes équipe
+   
+   • 20% vont au Studio : 750 000 FCFA
+     ? Financement des nouveaux projets
+     ? C'est la RÈGLE DES 20% (automatique)
+   
+   ?
+   
+   4?? LE STUDIO UTILISE CET ARGENT
+   
+   Budget projet type : 5 000 000 FCFA sur 6 mois
+   ? On accumule pendant 6-7 mois pour financer un nouveau projet
+   ? Ou on finance 2-3 petits projets en parallèle
+   
+   ?
+   
+   5?? LE PROJET DEVIENT RENTABLE (Si Succès)
+   
+   Projet KOODI génère : 3 000 000 FCFA/mois
+   ? Il rembourse les 5 000 000 FCFA à la Holding (BILL BACK)
+   ? L'argent retourne à l'Agence
+   ? On recommence le cycle
+1.2. Exemple Concret sur 12 Mois
+Prenons un exemple réel pour bien comprendre :
+JANVIER 2026 - Mois 1
+L'Agence livre 3 projets clients : - Site e-commerce pour une boutique : 4 000 000 FCFA - Application mobile pour une école : 8 000 000 FCFA - Refonte de branding pour une ONG : 3 000 000 FCFA
+Total CA Janvier : 15 000 000 FCFA
+Calcul des marges :
+CA : 15 000 000 FCFA
+
+Coûts directs (hébergement, licences, freelances externes) :
+- Serveurs AWS : 500 000 FCFA
+- Licences Adobe, Figma : 300 000 FCFA
+- Freelance designer externe pour l'ONG : 800 000 FCFA
+- Stock photos, fonts : 200 000 FCFA
+Total coûts directs : 1 800 000 FCFA (12% du CA)
+
+Marge Brute : 15M - 1,8M = 13 200 000 FCFA (88%)
+
+Coûts de livraison (salaires équipe) :
+- 3 développeurs : 150K × 3 = 450 000 FCFA
+- 2 designers : 120K × 2 = 240 000 FCFA
+- 1 chef de projet : 200 000 FCFA
+- 1 marketeur : 100 000 FCFA
+Total salaires : 990 000 FCFA par mois
+
+Marge de Livraison : 13,2M - 990K = 12 210 000 FCFA (81% du CA)
+
+Frais fixes :
+- Loyer bureau : 300 000 FCFA
+- Électricité + Internet : 150 000 FCFA
+- Assurances : 100 000 FCFA
+- Comptable : 150 000 FCFA
+- Marketing & Pub : 200 000 FCFA
+- Divers : 100 000 FCFA
+Total frais fixes : 1 000 000 FCFA
+
+MARGE NETTE : 12,21M - 1M = 11 210 000 FCFA (74,7% du CA)
+Attendez, 74,7% de marge nette ? C'est énorme !
+Oui, dans cet exemple optimiste. Mais attention : - Tous les mois ne sont pas aussi bons (certains mois : 5M FCFA de CA seulement) - Il faut constituer une trésorerie pour les mois creux - Les salaires sont volontairement bas au début (on monte progressivement)
+Objectif réaliste : 25% de marge nette en moyenne annuelle
+Application de la Règle des 20% :
+Marge nette janvier : 11 210 000 FCFA
+20% au Studio : 2 242 000 FCFA
+80% restent à l'Agence : 8 968 000 FCFA
+FÉVRIER-JUILLET 2026 - Accumulation
+On accumule 20% chaque mois : - Février : +1 500 000 FCFA - Mars : +2 000 000 FCFA - Avril : +1 800 000 FCFA - Mai : +2 500 000 FCFA - Juin : +1 200 000 FCFA (mois creux) - Juillet : +1 900 000 FCFA
+Total accumulé pour le Studio en 7 mois : 13 142 000 FCFA
+AOÛT 2026 - Lancement de 2 Projets Studio
+Avec notre trésorerie de 13M FCFA, on lance :
+1. Projet MIAMÈ (partage d'abonnements)
+- Budget : 8 000 000 FCFA
+- Équipe : 2 devs + 1 designer + 1 marketeur
+- Durée : 6 mois
+2. Projet KOODI (codes USSD)
+- Budget : 5 000 000 FCFA
+- Équipe : 1 dev + 1 designer
+- Durée : 4 mois
+DÉCEMBRE 2026 - KOODI Devient Rentable
+KOODI génère ses premiers revenus : - 1 000 utilisateurs payants × 500 FCFA/mois = 500 000 FCFA - Croissance de 30% par mois
+JUIN 2027 - KOODI Rembourse (Bill Back)
+Après 10 mois : - KOODI a 15 000 utilisateurs - Revenus mensuels : 7 500 000 FCFA - Coûts mensuels : 2 000 000 FCFA - Bénéfice net : 5 500 000 FCFA/mois
+KOODI rembourse les 5 000 000 FCFA à la Holding.
+L'argent retourne à l'Agence ? On recommence le cycle
+
+2. L'AGENCE : NOTRE MOTEUR FINANCIER DÉTAILLÉ
+2.1. Les Marges de l'Agence (Expliquées Simplement)
+Quand on parle de "marge", on parle de ce qui reste après avoir payé tous les coûts. Il y a plusieurs types de marges :
+?? TABLEAU DES MARGES AGENCE
+Type de MargeDéfinition SimpleCalculObjectif RUDOREMarge BruteCe qui reste après avoir payé les coûts directs du projetCA - Coûts directs60% minimumMarge de LivraisonCe qui reste après avoir payé l'équipe qui a livré le projetMarge Brute - Salaires équipe70% de la marge bruteMarge NetteLe vrai profit (après TOUS les coûts)Marge de Livraison - Frais fixes25% du CAPourquoi ces 3 niveaux sont importants ?
+1. Marge Brute (60%) : Elle nous dit si on facture assez cher par rapport à nos coûts directs
+- Si < 60% : On facture trop peu ou nos coûts sont trop élevés
+- Exemple : Un projet facturé 5M avec 3M de coûts = 40% de marge brute ? PROBLÈME
+2. Marge de Livraison (70%) : Elle nous dit si notre équipe est productive
+- Si < 70% : Notre équipe prend trop de temps ou on paie trop de salaires pour le CA généré
+- Exemple : Si on paie 5M de salaires mais qu'on génère seulement 3M de marge brute ? PROBLÈME
+3. Marge Nette (25%) : C'est le vrai indicateur de santé financière
+- Si < 25% : On ne sera pas rentable à long terme
+- Si > 30% : On peut investir plus agressivement dans le Studio
+2.2. Le Ratio Salaires/Revenus : 39% Maximum
+Qu'est-ce que c'est ?
+C'est le pourcentage de votre chiffre d'affaires qui part en salaires.
+Formule simple :
+Ratio Salaires/Revenus = (Total des salaires mensuels / CA mensuel) × 100
+Exemple : - CA mensuel : 15 000 000 FCFA - Total salaires : 5 000 000 FCFA - Ratio : (5M / 15M) × 100 = 33,3% ?
+Pourquoi 39% maximum ?
+C'est le standard de l'industrie des agences digitales dans le monde : - Si > 40% : Vous payez trop de salaires par rapport à ce que vous vendez - Si < 30% : Soit vous sous-payez votre équipe, soit vous êtes très efficace
+Pour RUDORE, on vise 35% : - Cela laisse de la marge pour la Règle des 20% - Cela permet de bien payer notre équipe (pas de sous-traitance) - Cela assure une marge nette confortable
+Outil de pilotage mensuel :
+Tableau de Bord Mensuel - Agence RUDORE
+???????????????????????????????????????
+
+Mois : Janvier 2026
+
+CA Réalisé : 15 000 000 FCFA
+Salaires Payés : 5 250 000 FCFA
+Ratio Salaires/CA : 35% ?
+
+Seuil d'alerte : 39%
+Marge de manœuvre : 4% (600K FCFA)
+
+Action si dépassement :
+• Option 1 : Augmenter le CA (vendre plus)
+• Option 2 : Optimiser l'équipe (automatisation)
+• Option 3 : Augmenter les tarifs clients
+2.3. La Règle des 20% : Le Carburant du Studio
+Principe de base :
+Chaque mois, automatiquement, 20% du bénéfice net de l'Agence sont transférés dans un compte dédié au Studio.
+Pourquoi 20% et pas 10% ou 50% ?
+• Si 10% : Trop faible. On met 2 ans à accumuler de quoi lancer un projet
+• Si 50% : Trop élevé. L'Agence manque de trésorerie pour gérer les imprévus
+• 20% : Le point d'équilibre parfait selon les benchmarks internationaux
+Calcul automatique (à mettre dans la comptabilité) :
+Fin du mois (exemple : 31 Janvier 2026)
+???????????????????????????????????????
+
+Marge Nette Janvier : 3 750 000 FCFA
+
+Virement automatique :
+? Compte "Agence Trésorerie" : 80% = 3 000 000 FCFA
+? Compte "Studio Investissement" : 20% = 750 000 FCFA
+
+Ce virement est NON-NÉGOCIABLE.
+Même si l'Agence a besoin de trésorerie, on ne touche pas au 20%.
+Pourquoi c'est non-négociable ?
+Parce que sans discipline, on finit toujours par trouver une "bonne raison" de ne pas investir dans le Studio : - "Ce mois-ci on a une grosse facture à payer" - "On va attendre le mois prochain" - "On a besoin d'un nouvel ordinateur"
+Résultat : Au bout de 2 ans, le Studio n'a toujours rien lancé.
+La Règle des 20% protège l'avenir de RUDORE.
+2.4. Les Aspects Légaux Togolais (Important !)
+2.4.1. La Loi de Finances 2025 du Togo : Le Seuil de 100 Millions FCFA
+Qu'est-ce que c'est ?
+En janvier 2025, le gouvernement togolais a voté une nouvelle loi de finances qui dit :
+"Les entreprises dont le chiffre d'affaires annuel dépasse 100 000 000 FCFA sont soumises à la TVA (Taxe sur la Valeur Ajoutée)."
+Avant cette loi : - Seuil TVA : 60 000 000 FCFA
+Maintenant : - Seuil TVA : 100 000 000 FCFA
+Pourquoi c'est important pour RUDORE ?
+Scénario 1 : CA Annuel < 100M FCFA (Exemple : 80M FCFA/an) - ? Pas de TVA à collecter - ? Comptabilité simplifiée - ? Pas besoin d'un comptable expert TVA - ? Moins de paperasse administrative
+Scénario 2 : CA Annuel > 100M FCFA (Exemple : 150M FCFA/an) - ?? Obligation de collecter la TVA (18% au Togo) - ?? Déclarations mensuelles à l'Office Togolais des Recettes (OTR) - ?? Besoin d'un logiciel de facturation certifié - ?? Risque d'audit plus fréquent
+Notre Stratégie pour les 2 Premières Années :
+Année 1 (2026) : Objectif < 100M FCFA
+???????????????????????????????????????
+
+CA mensuel moyen visé : 7 à 8 millions FCFA
+CA annuel : 84 à 96 millions FCFA
+? On reste SOUS le seuil de 100M
+? Temps pour structurer avant la TVA
+
+Année 2 (2027) : Préparation au passage TVA
+???????????????????????????????????????
+
+CA mensuel moyen visé : 10 à 12 millions FCFA
+CA annuel : 120 à 144 millions FCFA
+? On passe le seuil de 100M
+? Mise en place du système TVA au T1 2027
+? Formation comptable + logiciel certifié
+Avantage stratégique :
+Cette fenêtre de 2 ans sans TVA nous donne du temps pour : 1. Stabiliser nos processus 2. Former l'équipe administrative 3. Accumuler de la trésorerie 4. Investir dans le Studio sans pression administrative
+Budget à prévoir pour le passage TVA (2027) : - Logiciel de facturation certifié : 1 500 000 FCFA - Formation comptable TVA : 500 000 FCFA - Expert-comptable agréé OTR : 300 000 FCFA/mois - Total première année TVA : ~5 000 000 FCFA
+2.4.2. OHADA Article 113 CGI : La Déductibilité des Intérêts
+C'est quoi OHADA ?
+OHADA = Organisation pour l'Harmonisation en Afrique du Droit des Affaires
+C'est un ensemble de lois communes à 17 pays africains (dont le Togo) pour harmoniser le droit des affaires.
+Article 113 du Code Général des Impôts (CGI) :
+Cet article dit : "Les intérêts sur un prêt entre entreprises sont déductibles des impôts SI et SEULEMENT SI 3 conditions sont remplies."
+Traduction en français simple :
+Quand la Holding RUDORE prête de l'argent au Studio pour financer un projet, elle peut demander des intérêts (comme une banque). Ces intérêts sont déductibles des impôts (= on paie moins d'impôts) MAIS il faut respecter 3 règles :
+RÈGLE 1 : Le Capital Social est Entièrement Libéré
+Qu'est-ce que ça veut dire ?
+Quand vous créez une entreprise, vous devez déposer un "capital social" (l'argent de départ). Au Togo, le minimum pour une SARL est 1 000 000 FCFA.
+"Entièrement libéré" = Cet argent doit VRAIMENT être déposé à la banque, pas juste promis.
+Exemple : - Capital social déclaré : 10 000 000 FCFA - Argent réellement déposé : 10 000 000 FCFA ? - ? La règle 1 est respectée
+Si pas respecté : - Capital social déclaré : 10 000 000 FCFA - Argent réellement déposé : 3 000 000 FCFA ? - ? Les intérêts sur le prêt ne sont PAS déductibles
+
+RÈGLE 2 : Le Montant du Prêt = Capital Social
+Qu'est-ce que ça veut dire ?
+Vous ne pouvez pas prêter plus d'argent que le capital social de l'entreprise.
+Exemple : - Capital social du projet KOODI : 15 000 000 FCFA - Prêt de la Holding : 8 000 000 FCFA ? - ? 8M < 15M donc OK
+Si pas respecté : - Capital social du projet KOODI : 5 000 000 FCFA - Prêt de la Holding : 8 000 000 FCFA ? - ? 8M > 5M donc les intérêts ne sont PAS déductibles
+Solution : Si on veut prêter 8M, il faut un capital social d'au moins 8M.
+
+RÈGLE 3 : Taux d'Intérêt = Taux Légal + 3 Points
+Qu'est-ce que ça veut dire ?
+Le taux d'intérêt qu'on demande ne peut pas être excessif.
+Le taux légal au Togo en 2025 : - Fixé par la Banque Centrale des États de l'Afrique de l'Ouest (BCEAO) - Taux directeur 2025 : 5,25% (depuis juin 2025)
+Calcul autorisé :
+Taux légal : 5,25%
++ 3 points maximum : 3%
+????????????????????????
+Taux maximum autorisé : 8,25%
+Exemple conforme : - Prêt de 10 000 000 FCFA - Taux appliqué : 7% par an ? - Intérêts annuels : 700 000 FCFA - ? Déductibles des impôts
+Exemple NON conforme : - Prêt de 10 000 000 FCFA - Taux appliqué : 12% par an ? - ? Intérêts NON déductibles (on paie des impôts dessus)
+
+APPLICATION PRATIQUE POUR RUDORE :
+Projet KOODI - Financement Studio
+ÉTAPE 1 : Constitution du Capital Social
+???????????????????????????????????????
+
+Capital social KOODI : 15 000 000 FCFA
+Répartition :
+• Fondateur (60%) : 9 000 000 FCFA
+• Builders (25%) : 3 750 000 FCFA
+• RUDORE Holding (15%) : 2 250 000 FCFA
+
+? Capital entièrement libéré (déposé à la banque)
+
+
+ÉTAPE 2 : Prêt de la Holding pour le Développement
+???????????????????????????????????????
+
+Besoin : 8 000 000 FCFA pour développer le MVP
+Source : Holding RUDORE (via fonds accumulés par la Règle des 20%)
+
+Vérification Règle 2 :
+8 000 000 FCFA (prêt) < 15 000 000 FCFA (capital) ?
+
+
+ÉTAPE 3 : Calcul des Intérêts Conformes
+???????????????????????????????????????
+
+Montant prêté : 8 000 000 FCFA
+Durée : 12 mois
+Taux appliqué : 7% par an (< 8,25% autorisé) ?
+
+Intérêts sur 1 an : 8M × 7% = 560 000 FCFA
+
+Ces 560 000 FCFA sont :
+• Un revenu pour la Holding
+• Déductibles des impôts de KOODI
+• Remboursés quand KOODI devient rentable
+
+
+ÉTAPE 4 : Remboursement (Bill Back)
+???????????????????????????????????????
+
+Quand KOODI génère 5M FCFA/mois de revenus :
+
+Remboursement à la Holding :
+• Principal : 8 000 000 FCFA
+• Intérêts : 560 000 FCFA
+• Total : 8 560 000 FCFA
+
+Ce montant retourne au fonds Studio pour financer le projet suivant.
+Pourquoi c'est important de respecter ces règles ?
+1. Légalité : Si on ne respecte pas, l'administration fiscale peut redresser les comptes
+2. Optimisation fiscale : Les intérêts déductibles réduisent la base imposable
+3. Crédibilité : Les investisseurs externes vérifient toujours la conformité OHADA
+
+3. LE STUDIO : CRÉER DU PATRIMOINE SANS S'ENDETTER
+3.1. Comment le Studio est Financé (Sans Aller à la Banque)
+Problème classique des startups :
+Pour lancer une startup, il faut de l'argent. Les sources traditionnelles : 1. Économies personnelles (vous risquez vos propres sous) 2. Prêt bancaire (vous vous endettez, taux à 12-15% au Togo) 3. Levée de fonds (vous vendez 30-50% de votre entreprise dès le début)
+Solution RUDORE : L'Auto-Financement via l'Agence
+On ne va ni à la banque, ni chez les investisseurs pour financer les premiers projets du Studio.
+Le mécanisme :
+MOIS 1-6 : Accumulation via Règle des 20%
+???????????????????????????????????????
+
+L'Agence génère des bénéfices :
+• Mois 1 : 3,5M × 20% = 700K
+• Mois 2 : 4,2M × 20% = 840K
+• Mois 3 : 2,8M × 20% = 560K
+• Mois 4 : 5,1M × 20% = 1 020K
+• Mois 5 : 3,9M × 20% = 780K
+• Mois 6 : 4,5M × 20% = 900K
+
+Total accumulé : 4 800 000 FCFA
+
+
+MOIS 7 : Lancement d'un Projet Studio
+???????????????????????????????????????
+
+Budget projet KOODI : 5 000 000 FCFA
+
+Répartition du budget :
+• Salaires équipe (4 mois) : 3 200 000 FCFA
+  - 2 développeurs × 150K × 4 = 1 200K
+  - 1 designer × 120K × 4 = 480K
+  - 1 marketeur × 100K × 4 = 400K
+  - 1 chef de projet × 150K × 4 = 600K
+
+• Infrastructure tech : 800 000 FCFA
+  - Serveurs cloud (4 mois) : 400K
+  - Licences logiciels : 200K
+  - Nom de domaine + SSL : 50K
+  - Services externes (SMS, paiement) : 150K
+
+• Marketing lancement : 600 000 FCFA
+  - Publicité Facebook/Google : 300K
+  - Vidéos promo : 200K
+  - Ambassadeurs/influenceurs : 100K
+
+• Légal & Admin : 400 000 FCFA
+  - Constitution société : 150K
+  - Contrats d'équité : 100K
+  - Comptabilité 6 mois : 150K
+
+Total : 5 000 000 FCFA (financé par l'Agence, pas par la banque)
+Avantages de ce modèle :
+1. Pas de dette : Aucun emprunt bancaire, donc pas d'intérêts à payer
+2. Pas de dilution précoce : On ne vend pas de parts à des investisseurs dès le début
+3. Indépendance stratégique : On décide nous-mêmes des projets à lancer
+4. Résilience : Si un projet échoue, l'Agence continue de tourner
+3.2. Le Mécanisme du "Bill Back" (Investissement Récupérable)
+Qu'est-ce que c'est ?
+Le Bill Back, c'est un système où la Holding "prête" de l'argent au projet du Studio, et ce projet rembourse la Holding quand il devient rentable.
+En français simple :
+C'est comme si votre parent vous prêtait 5 millions FCFA pour ouvrir un restaurant. Vous ne payez rien au début, mais quand votre restaurant commence à faire des bénéfices, vous remboursez petit à petit.
+Différence avec un prêt bancaire :
+AspectPrêt Bancaire ClassiqueBill Back RUDOREIntérêts12-15% par an (beaucoup)7% par an (peu)Délai fixeVous DEVEZ rembourser en 2 ans (même si vous perdez de l'argent)Vous remboursez QUAND vous êtes rentableGarantiesVous devez donner votre maison/voiture en garantieAucune garantie personnellePressionStress énorme (risque de faillite)Vous travaillez sereinementExemple concret : Projet MIAMÈ
+JANVIER 2026 : Lancement du Projet
+???????????????????????????????????????
+
+La Holding prête : 8 000 000 FCFA
+Équipe : 2 devs + 1 designer + 1 marketeur
+Durée de développement : 6 mois
+
+
+FÉVRIER-JUILLET 2026 : Développement
+???????????????????????????????????????
+
+Pas de revenus encore (on code, on teste)
+Pas de remboursement exigé (on respire)
+
+
+AOÛT 2026 : Lancement Public
+???????????????????????????????????????
+
+Premiers utilisateurs : 200 personnes
+Revenus : 100 000 FCFA/mois
+Coûts : 300 000 FCFA/mois
+? On perd 200K/mois (normal au début)
+? Toujours pas de remboursement exigé
+
+
+DÉCEMBRE 2026 : Croissance
+???????????????????????????????????????
+
+Utilisateurs : 2 000 personnes
+Revenus : 1 000 000 FCFA/mois
+Coûts : 600 000 FCFA/mois
+? Bénéfice : 400K/mois
+? Début du remboursement : 200K/mois
+
+
+REMBOURSEMENT SUR 3 ANS (2027-2029)
+???????????????????????????????????????
+
+Total à rembourser :
+• Principal : 8 000 000 FCFA
+• Intérêts 7% sur 3 ans : 1 680 000 FCFA
+• Total : 9 680 000 FCFA
+
+Plan de remboursement flexible :
+• Année 1 (2027) : 2 000 000 FCFA (167K/mois)
+• Année 2 (2028) : 3 500 000 FCFA (292K/mois)
+• Année 3 (2029) : 4 180 000 FCFA (348K/mois)
+
+Après 3 ans : MIAMÈ est totalement libre de dette.
+La Holding a récupéré son argent + intérêts.
+Elle peut financer 2 nouveaux projets avec cet argent.
+Que se passe-t-il si le projet échoue ?
+Option 1 : Pivot (Changement de Direction) - Si MIAMÈ ne marche pas, on transforme le projet en autre chose - Exemple : De "partage d'abonnements" à "abonnements groupés pour entreprises" - Le Bill Back est suspendu le temps du pivot
+Option 2 : Fermeture Contrôlée - Si vraiment ça ne marche pas après 18 mois - On ferme le projet proprement - La Holding perd les 8M (c'est le risque assumé) - MAIS : Les 15% de parts RUDORE restent dans le portfolio (si jamais quelqu'un rachète le code)
+Option 3 : Acquisition Partielle - Un autre acteur rachète le projet pour 5M - La Holding récupère 5M sur les 8M investis - Perte limitée à 3M (37,5% de l'investissement)
+3.3. Pourquoi ce Système Protège Tout le Monde
+Protection du Fondateur (60%) : - Pas d'endettement personnel (la dette est au niveau de l'entreprise) - Pas de pression pour rembourser avant d'être rentable - Possibilité de pivoter sans pénalités
+Protection des Builders (25%) : - Leurs parts ne sont pas diluées par le Bill Back - Ils touchent leur part des bénéfices APRÈS le remboursement (logique) - Si échec, ils n'ont rien à rembourser personnellement
+Protection de RUDORE (15%) : - Récupération de l'investissement en cas de succès - Recyclage du capital pour financer d'autres projets - Perte limitée en cas d'échec (l'Agence compense)
+
+4. LE MODÈLE D'ÉQUITÉ 60/25/15 : POURQUOI CES CHIFFRES ?
+4.1. Les 60% du Fondateur : Garder le Pouvoir de Décision
+Pourquoi 60% et pas 51% ou 70% ?
+60% c'est le sweet spot (point d'équilibre parfait) pour plusieurs raisons :
+RAISON 1 : Garder le Contrôle Après Plusieurs Levées de Fonds
+Imaginons un fondateur qui lève des fonds sur 5 ans :
+ANNÉE 0 : Création
+???????????????????????????????????????
+Fondateur : 60%
+Builders : 25%
+RUDORE : 15%
+
+ANNÉE 1 : Pre-Seed (Pré-Amorçage)
+???????????????????????????????????????
+Levée : 50 millions FCFA
+Dilution : 15%
+? Fondateur : 60% × 0,85 = 51%
+? Builders : 25% × 0,85 = 21,25%
+? RUDORE : 15% × 0,85 = 12,75%
+? Investisseur 1 : 15%
+
+ANNÉE 2 : Seed (Amorçage)
+???????????????????????????????????????
+Levée : 200 millions FCFA
+Dilution : 20%
+? Fondateur : 51% × 0,80 = 40,8%
+? Builders : 21,25% × 0,80 = 17%
+? RUDORE : 12,75% × 0,80 = 10,2%
+? Investisseur 1 : 15% × 0,80 = 12%
+? Investisseur 2 : 20%
+
+ANNÉE 4 : Série A
+???????????????????????????????????????
+Levée : 1 milliard FCFA
+Dilution : 25%
+? Fondateur : 40,8% × 0,75 = 30,6%
+? Builders : 17% × 0,75 = 12,75%
+? RUDORE : 10,2% × 0,75 = 7,65%
+? Investisseur 1 : 12% × 0,75 = 9%
+? Investisseur 2 : 20% × 0,75 = 15%
+? Investisseur 3 : 25%
+Résultat Final :
+Le fondateur garde 30,6% après 3 levées de fonds importantes.
+Pourquoi c'est important ?
+• Avec 30%, il reste le plus gros actionnaire (voix prépondérante)
+• Il peut bloquer les décisions importantes (qui nécessitent 66% en général)
+• Il ne se fait pas "éjecter" par les investisseurs
+Si on avait commencé à 40% au lieu de 60% : - Après Série A : 40% × 0,85 × 0,80 × 0,75 = 20,4% - Le fondateur devient minoritaire dès la Série A - Risque de perdre le contrôle de sa propre entreprise
+RAISON 2 : Le Seuil Psychologique
+Des études (Y Combinator, 500 Startups) montrent que quand un fondateur descend sous 35%, il perd sa motivation : - "Ce n'est plus vraiment mon entreprise" - "Je travaille pour les investisseurs" - "À quoi bon me tuer à la tâche ?"
+60% de départ permet de rester au-dessus de 35% même après plusieurs levées.
+RAISON 3 : Attractivité pour les Entrepreneurs Externes
+Si un entrepreneur vient chez RUDORE avec son idée, il compare :
+StructurePart FondateurPart StudioIncubateur Classique90-95%5-10% (juste conseil)Accelerateur (Y Combinator)93%7% (formation + réseau)Venture Studio US/Europe30-50%50-70% (ils fournissent tout)RUDORE (Togo)60%15% (équipe complète fournie)Conclusion : 60% est ultra-compétitif comparé aux studios mondiaux, tout en restant viable pour RUDORE.
+4.2. Les 25% des Builders : Transformer des Salariés en Associés
+Pourquoi 25% et pas 10% ou 40% ?
+25% c'est la part collective qui sera répartie entre tous les builders (développeurs, designers, marketeurs) qui construisent le produit.
+Exemple de répartition pour le projet KOODI :
+ÉQUIPE KOODI (3 Personnes)
+???????????????????????????????????????
+
+Total parts Builders : 25%
+
+Lead Developer (Amavi) : 10%
+• C'est lui qui a codé 70% de l'appli
+• Il est là depuis le jour 1
+• Il prend les décisions techniques
+
+Designer (Koffi) : 8%
+• Il a créé toute l'identité visuelle
+• Il a fait toutes les interfaces
+• Il est là depuis le mois 2
+
+Junior Developer (Edem) : 7%
+• Il a aidé sur le backend
+• Il est arrivé au mois 3
+• Il a moins d'expérience
+
+Total : 10% + 8% + 7% = 25% ?
+Comment on décide qui reçoit combien ?
+On utilise une grille d'évaluation objective :
+GRILLE DE RÉPARTITION DES 25%
+???????????????????????????????????????
+
+Critère 1 : Ancienneté dans le Projet (30 points max)
+• Là depuis le début : 30 points
+• Arrivé à mi-parcours : 15 points
+• Arrivé sur la fin : 5 points
+
+Critère 2 : Contribution Technique (40 points max)
+• Lead du projet (décisions clés) : 40 points
+• Contributeur majeur : 25 points
+• Contributeur junior : 10 points
+
+Critère 3 : Niveau d'Expertise (30 points max)
+• Expert senior (5+ ans) : 30 points
+• Intermédiaire (2-5 ans) : 20 points
+• Junior (< 2 ans) : 10 points
+
+???????????????????????????????????????
+TOTAL : 100 points maximum
+
+Calcul de la part individuelle :
+Part = (Points obtenus / Total points équipe) × 25%
+Application pour KOODI :
+Amavi (Lead Dev)
+• Ancienneté : 30 points (là depuis le début)
+• Contribution : 40 points (lead technique)
+• Expertise : 30 points (7 ans d'expérience)
+Total : 100 points
+
+Koffi (Designer)
+• Ancienneté : 20 points (arrivé mois 2)
+• Contribution : 35 points (lead design)
+• Expertise : 25 points (4 ans d'expérience)
+Total : 80 points
+
+Edem (Junior Dev)
+• Ancienneté : 15 points (arrivé mois 3)
+• Contribution : 20 points (support backend)
+• Expertise : 10 points (1 an d'expérience)
+Total : 45 points
+
+???????????????????????????????????????
+Total équipe : 100 + 80 + 45 = 225 points
+
+Répartition des 25% :
+• Amavi : (100/225) × 25% = 11,1%
+• Koffi : (80/225) × 25% = 8,9%
+• Edem : (45/225) × 25% = 5%
+
+Total : 11,1% + 8,9% + 5% = 25% ?
+Pourquoi 25% collectif est parfait :
+1. C'est significatif : 25%, ce n'est pas du symbole. Si l'entreprise vaut 1 milliard FCFA, les builders ont 250 millions FCFA à se partager.
+2. C'est motivant : Un développeur qui a 10% d'une startup travaille 10x plus dur qu'un salarié normal.
+3. C'est équitable : Le fondateur garde la majorité (60%), mais l'équipe est vraiment récompensée.
+4. C'est viable : Il reste 15% pour RUDORE (qui fournit l'infrastructure, le financement, le support).
+4.3. Les 15% de RUDORE : Le Pari à Long Terme
+Pourquoi seulement 15% alors que RUDORE fait tout le travail ?
+C'est LA question que tout le monde pose.
+Comparaison avec d'autres modèles :
+ActeurServices FournisPart PriseY CombinatorFormation 3 mois + réseau + conseils7%Venture Studio USIdée + équipe + financement + locaux50-70%Incubateur AfricainBureau + mentorat5-10%RUDOREÉquipe complète + financement + infrastructure + branding15%À première vue, 15% semble très bas comparé aux 50% des studios américains.
+Mais voici pourquoi ça marche :
+RAISON 1 : Le Volume Compense
+RUDORE ne mise pas sur 1 ou 2 gros succès. On mise sur le volume.
+STRATÉGIE CLASSIQUE (Venture Studio US)
+???????????????????????????????????????
+
+Projets lancés par an : 2-3
+Part du studio : 50-60%
+Taux de succès : 20%
+
+Exemple sur 10 projets en 5 ans :
+• 2 succès × 50% × 1 milliard FCFA = 1 milliard FCFA de valeur
+• 8 échecs × 50M investis = -400M
+• Résultat net : +600M sur 5 ans
+
+
+STRATÉGIE RUDORE (Volume + Part Faible)
+???????????????????????????????????????
+
+Projets lancés par an : 4-6 (grâce à l'Agence qui finance)
+Part du studio : 15%
+Taux de succès visé : 30% (meilleur car on valide + avant de lancer)
+
+Exemple sur 20 projets en 5 ans :
+• 6 succès × 15% × 500M FCFA = 450M de valeur
+• 14 échecs × 20M investis = -280M
+• Résultat net : +170M sur 5 ans
+
+MAIS : On a lancé 2x plus de projets
+      ? Plus de chances de trouver le "unicorn" (licorne à 1 milliard)
+      ? Plus d'impact sur l'écosystème
+RAISON 2 : La Valeur Ajoutée Continue (vs Ponctuelle)
+Beaucoup de studios prennent 50% mais disparaissent après le lancement.
+RUDORE s'engage à long terme :
+ENGAGEMENT RUDORE (Post-Lancement)
+???????????????????????????????????????
+
+Mois 1-6 : Développement
+? Équipe complète fournie
+
+Mois 7-12 : Lancement & Itération
+? Support marketing via RUDORE Services
+? Debugging & maintenance continues
+? Accès au réseau SpeedMaker
+
+Mois 13-24 : Croissance
+? Aide au recrutement de nouveaux talents (via LPT)
+? Support levée de fonds (présentation investisseurs)
+? Mise en relation écosystème
+
+Mois 25+ : Autonomie
+? La startup peut devenir indépendante
+? RUDORE reste actionnaire (15%)
+? Siège au conseil d'administration (voix consultative)
+En clair : 15% de RUDORE = Actionnaire actif sur 5+ ans, pas juste un "donneur d'argent".
+RAISON 3 : L'Alternative est le Mécanisme de Revenue Share
+Pour les projets où 15% semble vraiment trop faible (par exemple un projet qui nécessite 50M FCFA d'investissement), RUDORE peut proposer une alternative :
+Mécanisme de Revenue Share (Partage de Revenus) :
+AU LIEU DE :
+• 15% d'équité à vie
+
+ON PROPOSE :
+• 5% d'équité
+• + 5% des revenus mensuels pendant 24 mois
+Exemple concret avec le projet MIAMÈ :
+SCÉNARIO A : Équité Classique (15%)
+???????????????????????????????????????
+
+RUDORE investit : 25 000 000 FCFA
+RUDORE prend : 15% à vie
+
+Si MIAMÈ vaut 2 milliards dans 10 ans :
+? 15% × 2 milliards = 300 millions pour RUDORE
+
+
+SCÉNARIO B : Revenue Share (5% Équité + 5% Revenus)
+???????????????????????????????????????
+
+RUDORE investit : 25 000 000 FCFA
+RUDORE prend : 5% équité + 5% revenus sur 24 mois
+
+Revenus MIAMÈ :
+• Année 1 : 3M FCFA/mois × 12 = 36M
+  ? 5% = 1,8M pour RUDORE
+
+• Année 2 : 8M FCFA/mois × 12 = 96M
+  ? 5% = 4,8M pour RUDORE
+
+Total cash récupéré en 2 ans : 1,8M + 4,8M = 6,6M
+
+Si MIAMÈ vaut 2 milliards dans 10 ans :
+? 5% × 2 milliards = 100 millions pour RUDORE
+
+Total value RUDORE : 6,6M (cash rapide) + 100M (équité) = 106,6M
+
+
+COMPARAISON :
+• Scénario A : 300M mais on attend 10 ans
+• Scénario B : 106,6M dont 6,6M dans 2 ans (récupération rapide)
+
+Pour un fondateur qui veut garder plus d'équité ? Scénario B est attractif
+Pour RUDORE qui veut recycler vite le capital ? Scénario B est viable
+Quand utiliser le Revenue Share ?
+• Projets à revenus récurrents rapides (SaaS, abonnements)
+• Fondateurs qui veulent minimiser la dilution
+• Projets nécessitant un gros investissement initial (>20M FCFA)
+
+5. LE VESTING : COMMENT PROTÉGER TOUT LE MONDE
+5.1. C'est Quoi le Vesting ? (Acquisition Progressive)
+Définition simple :
+Le vesting, c'est un système où vous ne recevez pas vos parts (actions) d'un coup, mais progressivement sur 4 ans.
+Pourquoi on fait ça ?
+Pour éviter qu'un builder parte avec ses 25% après 2 mois de travail.
+Exemple sans vesting (PROBLÈME) :
+JANVIER 2026 : Lancement projet KOODI
+???????????????????????????????????????
+
+Équipe :
+• Amavi (dev) : 10% des parts
+• Koffi (designer) : 8% des parts
+• Edem (dev junior) : 7% des parts
+
+MARS 2026 : Edem quitte le projet
+???????????????????????????????????????
+
+Edem a travaillé seulement 2 mois.
+MAIS il garde ses 7% pour toujours.
+
+JUIN 2027 : KOODI devient rentable
+???????????????????????????????????????
+
+Amavi et Koffi ont travaillé 18 mois.
+Edem a travaillé 2 mois mais touche 7% des bénéfices.
+
+? C'est injuste pour Amavi et Koffi.
+? C'est du "dead equity" (capital mort).
+Exemple AVEC vesting (SOLUTION) :
+CONTRAT DE VESTING :
+???????????????????????????????????????
+
+Durée totale : 4 ans (48 mois)
+Cliff (période probatoire) : 12 mois
+Acquisition : 1/48ème par mois après le cliff
+
+
+JANVIER 2026 : Lancement
+???????????????????????????????????????
+
+Edem reçoit théoriquement 7% mais...
+? Il ne possède RIEN pendant les 12 premiers mois (cliff)
+
+
+MARS 2026 : Edem quitte
+???????????????????????????????????????
+
+Edem n'a pas atteint le cliff de 12 mois.
+? Il perd TOUTES ses parts (7% retournent au pool)
+
+Les 7% peuvent être redistribués à un nouveau member ou au fondateur.
+
+
+SCÉNARIO ALTERNATIF : Edem reste
+???????????????????????????????????????
+
+Janvier 2027 (12 mois plus tard) :
+? Cliff atteint ! Edem reçoit 25% de ses 7% d'un coup = 1,75%
+
+Février 2027 (mois 13) :
+? +1/48 de 7% = +0,146%
+Total Edem : 1,75% + 0,146% = 1,896%
+
+Mars 2027 (mois 14) :
+? +0,146%
+Total Edem : 2,042%
+
+... et ainsi de suite jusqu'à 48 mois.
+
+Janvier 2030 (après 4 ans complets) :
+? Edem possède finalement ses 7% complets.
+5.2. Pourquoi un Cliff de 12 Mois (et pas 6) ?
+Ancienne recommandation RUDORE : Cliff de 6 mois
+Après analyse des standards internationaux, on passe à 12 mois.
+Pourquoi ?
+RAISON 1 : Standard International
+BENCHMARKS MONDIAUX (Vesting Cliff)
+???????????????????????????????????????
+
+Silicon Valley : 12 mois (standard absolu)
+Europe : 12 mois
+Afrique du Sud : 12 mois
+Inde/Asie : 12 mois
+Amérique Latine : 12 mois
+
+RUDORE (avant) : 6 mois ?
+RUDORE (maintenant) : 12 mois ?
+Quand on cherchera des investisseurs internationaux, ils s'attendent à voir un cliff de 12 mois. Si on a 6 mois, ils vont demander pourquoi.
+RAISON 2 : 6 Mois C'est Trop Court pour Évaluer
+Un projet tech typique :
+Mois 1-3 : Setup & Learning
+? Environnement de développement
+? Comprendre le projet
+? Premiers prototypes
+
+Mois 4-6 : Développement Principal
+? Vraies fonctionnalités
+? On voit qui produit vraiment
+
+Mois 7-12 : Polissage & Tests
+? Bugs, optimisation
+? On voit qui reste engagé sous pression
+Si le cliff est à 6 mois, une personne peut : - Bien performer pendant la phase facile (mois 1-6) - Recevoir 25% de ses parts - Partir pendant la phase difficile (lancement)
+RAISON 3 : Protection Juridique Plus Forte
+Si quelqu'un conteste son départ :
+TRIBUNAL TOGOLAIS - Contestation Vesting
+???????????????????????????????????????
+
+Builder : "J'ai travaillé 8 mois, je mérite mes parts !"
+
+Avec cliff 6 mois :
+? Builder a dépassé le cliff
+? Il a techniquement droit à quelque chose
+? Négociation complexe
+
+Avec cliff 12 mois :
+? Builder n'a pas atteint le cliff
+? Contrat clair : 0% avant 12 mois
+? Cas simple pour le juge
+5.3. Calendrier de Vesting Détaillé (Exemple)
+Edem rejoint KOODI le 1er janvier 2026 Part allouée : 7%
+ANNÉE 1 (2026)
+???????????????????????????????????????
+
+Janvier - Décembre : CLIFF
+? Edem travaille
+? Edem ne possède encore RIEN
+? S'il part, il perd tout
+
+
+JANVIER 2027 (Fin du Cliff)
+???????????????????????????????????????
+
+Edem reçoit 25% de ses 7% d'un coup = 1,75%
+(Récompense pour avoir tenu 12 mois)
+
+Désormais, chaque mois :
++7% / 48 mois = +0,1458% par mois
+
+
+FÉVRIER 2027 - DÉCEMBRE 2029 (36 mois)
+???????????????????????????????????????
+
+36 mois × 0,1458% = 5,25%
+Total après 4 ans : 1,75% + 5,25% = 7% ?
+
+
+SI EDEM PART AU MOIS 30 (Juin 2028)
+???????????????????????????????????????
+
+Parts acquises :
+• Cliff (mois 12) : 1,75%
+• Mois 13-30 (18 mois) : 18 × 0,1458% = 2,625%
+Total : 1,75% + 2,625% = 4,375%
+
+Edem garde : 4,375%
+Retour au pool : 7% - 4,375% = 2,625%
+Que devient la part non-vestée (2,625%) ?
+Option 1 : Re-allocation à un nouveau builder - On recrute quelqu'un pour remplacer Edem - Il prend la part restante
+Option 2 : Dilution proportionnelle - Amavi et Koffi (les builders restants) se partagent - Augmente leur motivation
+Option 3 : Retour au fondateur - Le fondateur récupère (passe de 60% à 62,625%) - Rarement utilisé (peut démotiver les autres builders)
+
+6. LA STRUCTURE JURIDIQUE : ManCo/Trust EXPLIQUÉ SIMPLEMENT
+6.1. Le Problème : Trop d'Actionnaires
+Scénario problématique :
+KOODI - Capital Social 15M FCFA
+???????????????????????????????????????
+
+ACTIONNAIRES (Sans ManCo) :
+
+1. Kodjo (Fondateur) : 60% = 9M
+2. Amavi (Dev 1) : 10% = 1,5M
+3. Koffi (Designer) : 8% = 1,2M
+4. Edem (Dev 2) : 7% = 1,05M
+5. RUDORE Holding : 15% = 2,25M
+
+Total : 5 actionnaires
+
+PROBLÈMES :
+• 5 signatures nécessaires pour toute décision
+• 5 personnes à convoquer en assemblée générale
+• Si Edem part et on recrute Ama ? 6 actionnaires
+• Après 2 ans : 10 actionnaires (complexité explosive)
+Impact concret :
+• Modifier les statuts ? 5 signatures chez le notaire
+• Ouvrir un compte bancaire ? 5 pièces d'identité
+• Vendre l'entreprise ? Accord de 5 personnes
+• Lever des fonds ? Due diligence sur 5 personnes
+Coût administratif annuel : - Avec 5 actionnaires : ~2 000 000 FCFA - Avec 10 actionnaires : ~5 000 000 FCFA - Avec 3 actionnaires : ~800 000 FCFA
+6.2. La Solution : Structure ManCo (Management Company)
+Qu'est-ce qu'une ManCo ?
+C'est une société intermédiaire qui regroupe tous les builders en un seul actionnaire.
+Schéma avec ManCo :
+KOODI - Capital Social 15M FCFA
+???????????????????????????????????????
+
+ACTIONNAIRES (Avec ManCo) :
+
+1. Kodjo (Fondateur) : 60% = 9M
+2. RUDORE Holding : 15% = 2,25M
+3. ManCo Builders KOODI : 25% = 3,75M
+
+Total : 3 actionnaires seulement ?
+
+???????????????????????????????????????
+
+À L'INTÉRIEUR de la ManCo :
+
+Actionnaires de la ManCo :
+• Amavi : 40% de la ManCo (= 10% de KOODI)
+• Koffi : 32% de la ManCo (= 8% de KOODI)
+• Edem : 28% de la ManCo (= 7% de KOODI)
+
+Total : 100% de la ManCo
+Avantages :
+1. Simplicité administrative : 3 actionnaires au lieu de 5+ dans KOODI
+2. Flexibilité : On peut changer les parts internes de la ManCo sans toucher aux statuts de KOODI
+3. Protection : Les créanciers de Amavi ne peuvent pas saisir ses parts de KOODI directement
+4. Fiscalité : Optimisation possible (dividendes de KOODI ? ManCo en franchise de taxe)
+6.3. Comment ça Marche Concrètement ?
+ÉTAPE 1 : Création de la ManCo
+Constitution ManCo Builders KOODI SARL
+???????????????????????????????????????
+
+Capital social : 1 000 000 FCFA (minimum légal Togo)
+Actionnaires :
+• Amavi : 400 000 FCFA (40%)
+• Koffi : 320 000 FCFA (32%)
+• Edem : 280 000 FCFA (28%)
+
+Gérant : Amavi (élu par les actionnaires)
+
+Coût de création : ~150 000 FCFA
+Durée : 2 semaines
+ÉTAPE 2 : La ManCo Reçoit les 25% de KOODI
+Pacte d'Actionnaires KOODI
+???????????????????????????????????????
+
+Article 4 : Répartition du Capital
+
+4.1. Le capital social de 15 000 000 FCFA est réparti comme suit :
+• Kodjo (Fondateur) : 9 000 000 FCFA (60%)
+• RUDORE Holding : 2 250 000 FCFA (15%)
+• ManCo Builders KOODI SARL : 3 750 000 FCFA (25%)
+
+4.2. Les décisions concernant les parts détenues par la ManCo sont prises par le Gérant de la ManCo (Amavi), qui consulte les actionnaires de la ManCo pour les décisions majeures.
+ÉTAPE 3 : Gestion Quotidienne
+DÉCISION KOODI : Ouvrir un compte bancaire
+???????????????????????????????????????
+
+Sans ManCo :
+? Convoquer Kodjo, Amavi, Koffi, Edem, RUDORE (5 personnes)
+? 5 signatures
+? 5 pièces d'identité
+? 2 semaines
+
+Avec ManCo :
+? Convoquer Kodjo, Amavi (gérant ManCo), RUDORE (3 personnes)
+? 3 signatures
+? 3 pièces d'identité
+? 3 jours
+ÉTAPE 4 : Distribution des Dividendes
+KOODI génère 10M FCFA de bénéfice
+???????????????????????????????????????
+
+Décision : Distribuer 60% = 6 000 000 FCFA
+
+Répartition :
+• Kodjo : 60% × 6M = 3 600 000 FCFA (direct)
+• RUDORE : 15% × 6M = 900 000 FCFA (direct)
+• ManCo : 25% × 6M = 1 500 000 FCFA
+
+Puis, la ManCo redistribue :
+• Amavi : 40% × 1,5M = 600 000 FCFA
+• Koffi : 32% × 1,5M = 480 000 FCFA
+• Edem : 28% × 1,5M = 420 000 FCFA
+6.4. Budget de Mise en Place ManCo
+COÛTS JURIDIQUES - Structure ManCo
+???????????????????????????????????????
+
+Constitution ManCo :
+• Notaire (statuts) : 100 000 FCFA
+• Enregistrement RCCM : 30 000 FCFA
+• Publication Journal Officiel : 20 000 FCFA
+Sous-total : 150 000 FCFA
+
+Pacte d'Actionnaires KOODI (modifié) :
+• Avocat spécialisé : 500 000 FCFA
+• Notaire (avenant) : 150 000 FCFA
+Sous-total : 650 000 FCFA
+
+Conseil Fiscal (Optimisation) :
+• Expert-comptable conseil : 200 000 FCFA
+
+???????????????????????????????????????
+TOTAL PAR PROJET : 1 000 000 FCFA
+
+Sur 5 projets : 5 000 000 FCFA
+Économies admin annuelles : 3M × 5 = 15M FCFA
+Retour sur investissement : 3 ans
+
+7. LES MÉCANISMES DE SORTIE : COMMENT TOUT LE MONDE GAGNE
+7.1. Les 4 Types de Sortie Possibles
+SORTIE 1 : Acquisition Totale (Buy-Out)
+Exemple : Une grande entreprise rachète KOODI
+???????????????????????????????????????
+
+Offre : MTN rachète KOODI pour 2 milliards FCFA
+
+Répartition :
+• Kodjo (60%) : 1,2 milliard FCFA
+• ManCo/Builders (25%) : 500 millions FCFA
+  - Amavi (10%) : 200M
+  - Koffi (8%) : 160M
+  - Edem (7%) : 140M
+• RUDORE (15%) : 300 millions FCFA
+
+Total : 2 milliards FCFA
+
+Chacun reçoit son argent et c'est fini.
+SORTIE 2 : Acquisition Partielle (Partial Exit)
+Exemple : Un fonds rachète 40% de KOODI
+???????????????????????????????????????
+
+Offre : AfricInvest veut 40% pour 1 milliard FCFA
+? Valorisation totale : 2,5 milliards FCFA
+
+Qui vend ?
+• Kodjo vend 20% (garde 40%) : +500M FCFA
+• RUDORE vend 10% (garde 5%) : +250M FCFA
+• Builders vendent 10% (gardent 15%) : +250M FCFA
+
+Après l'opération :
+• Kodjo : 40%
+• Builders : 15%
+• RUDORE : 5%
+• AfricInvest : 40%
+
+Tout le monde a récupéré de l'argent mais garde des parts.
+SORTIE 3 : Introduction en Bourse (IPO)
+Exemple : KOODI entre à la Bourse Régionale (BRVM)
+???????????????????????????????????????
+
+Valorisation : 10 milliards FCFA
+Offre publique : 30% du capital
+
+Avant IPO :
+• Kodjo : 60%
+• Builders : 25%
+• RUDORE : 15%
+
+Après IPO (dilution 30%) :
+• Kodjo : 42% (a vendu 18%)
+• Builders : 17,5% (ont vendu 7,5%)
+• RUDORE : 10,5% (a vendu 4,5%)
+• Public : 30%
+
+Cash levé par la vente :
+• Kodjo : 18% × 10Mds = 1,8Mds FCFA
+• Builders : 7,5% × 10Mds = 750M FCFA
+• RUDORE : 4,5% × 10Mds = 450M FCFA
+
+Chacun garde des parts + a récupéré du cash.
+SORTIE 4 : Rachat par le Fondateur (Buyback)
+Exemple : Kodjo veut racheter toutes les parts
+???????????????????????????????????????
+
+Situation : KOODI vaut 500M FCFA après 3 ans
+
+Kodjo propose :
+• Racheter les 25% Builders : 125M FCFA
+• Racheter les 15% RUDORE : 75M FCFA
+• Total : 200M FCFA
+
+RUDORE accepte car :
+? On a investi 8M au départ
+? On récupère 75M (9,3x retour)
+? On peut réinvestir dans 3-4 nouveaux projets
+
+Builders acceptent car :
+? Amavi reçoit 50M (il gagnait 150K/mois avant)
+? Koffi reçoit 40M
+? Edem reçoit 35M
+? Ils peuvent tous lancer leur propre startup
+7.2. Matrice de Décision : Quand Sortir ?
+GRILLE DE DÉCISION DE SORTIE
+???????????????????????????????????????
+
+Offre de Rachat Reçue : 100% de l'entreprise
+
++----------------------------------------------------+
+¦ Actionnaire    ¦ Accepte  ¦ Négocie   ¦ Refuse     ¦
++----------------+----------+-----------+------------¦
+¦ FONDATEUR      ¦ > 50x    ¦ 20-50x    ¦ < 20x      ¦
+¦ (60%)          ¦ investis.¦ investis. ¦ investis.  ¦
++----------------+----------+-----------+------------¦
+¦ BUILDERS       ¦ > 10x    ¦ 5-10x     ¦ < 5x       ¦
+¦ (25%)          ¦ salaire  ¦ salaire   ¦ salaire    ¦
+¦                ¦ annuel   ¦ annuel    ¦ annuel     ¦
++----------------+----------+-----------+------------¦
+¦ RUDORE         ¦ > 10x    ¦ 5-10x     ¦ < 5x       ¦
+¦ (15%)          ¦ investis.¦ investis. ¦ investis.  ¦
++----------------------------------------------------+
+Exemple de calcul :
+Cas KOODI - Offre de Rachat 800M FCFA
+???????????????????????????????????????
+
+Kodjo (Fondateur) :
+• Reçoit : 60% × 800M = 480M
+• A investi : 9M au départ
+• Multiple : 480M / 9M = 53x ? Accepte
+
+Amavi (Builder 10%) :
+• Reçoit : 10% × 800M = 80M
+• Salaire annuel : 1,8M (150K/mois)
+• Multiple : 80M / 1,8M = 44x ? Accepte
+
+RUDORE (15%) :
+• Reçoit : 15% × 800M = 120M
+• A investi : 8M
+• Multiple : 120M / 8M = 15x ? Accepte
+
+Décision unanime : On vend.
+
+8. CONCLUSION DE LA PARTIE 2
+Ce Qu'Il Faut Retenir
+Les Flux Financiers : 1. L'Agence génère des revenus ? 25% de marge nette 2. 20% de cette marge vont au Studio (règle automatique) 3. Le Studio finance des projets (5-25M FCFA chacun) 4. Les projets rentables remboursent (Bill Back + intérêts 7%) 5. L'argent retourne à l'Agence ? nouveau cycle
+Les Marges de l'Agence : - Marge Brute : 60% minimum (prix de vente vs coûts directs) - Marge de Livraison : 70% de la brute (après salaires équipe) - Marge Nette : 25% du CA (après tous les coûts) - Ratio Salaires/CA : 35% (max 39%)
+Le Modèle d'Équité 60/25/15 : - 60% Fondateur : Garde le contrôle même après plusieurs levées de fonds - 25% Builders : Part collective qui motive et retient les meilleurs talents - 15% RUDORE : Pari sur le volume (20+ projets vs 5 projets à 50%)
+Le Vesting : - Durée : 4 ans (48 mois) - Cliff : 12 mois (pas 6, standard international) - Acquisition : 25% au cliff, puis 1/48ème par mois - Protection : Dead equity évité, engagement long terme récompensé
+La Structure ManCo : - Regroupe tous les Builders en 1 seul actionnaire - Passe de 5-10 actionnaires à 3 actionnaires - Économies admin : 3M FCFA/an par projet - Flexibilité : Changement interne sans modifier les statuts
+Les Aspects Légaux Togo : - Seuil TVA : 100M FCFA (Loi Finances 2025) - OHADA Article 113 : Intérêts déductibles si 3 conditions - Taux maximum : 8,25% (5,25% légal + 3 points)
+Les Sorties : - Acquisition totale, partielle, IPO, ou buyback - Décision basée sur multiples (10x minimum pour vendre) - Tout le monde gagne si succès
+
+?? PROCHAINE PARTIE : PARTIE 3 - STRATÉGIE MARKETING & ACQUISITION - Comment attirer les meilleurs clients pour l'Agence - Comment attirer les meilleurs talents pour LPT - Comment attirer les meilleurs entrepreneurs pour le Studio - Comment attirer les investisseurs sur SpeedMaker - La stratégie "Build in Public" - Le positionnement "From Raw to Rare"
+
+Document créé par RUDORE & Co Version 2.0 - Partie 2 - Janvier 2026 "From Raw to Rare"

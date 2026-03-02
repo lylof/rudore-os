@@ -1,0 +1,218 @@
+STRATÉGIE COMPLÈTE RUDORE & Co
+Le Premier Venture Studio Panafricain au Togo
+
+PARTIE 1 : VISION & ARCHITECTURE
+Qui Sommes-Nous et Comment Tout S'Articule
+
+TABLE DES MATIÈRES - PARTIE 1
+1. Notre Raison d'Être : L'Alchimie du Talent
+2. Le Contexte Africain : Pourquoi Maintenant ?
+3. Notre Architecture à 4 Piliers
+4. Le Modèle Hybride : Agence + Studio
+5. SpeedMaker : Notre Vitrine Stratégique
+6. Le Parcours du Talent : De la Formation à l'Entrepreneuriat
+
+1. NOTRE RAISON D'ÊTRE : L'ALCHIMIE DU TALENT
+1.1. Le Problème que Nous Résolvons
+L'Afrique de l'Ouest, et particulièrement le Togo, vit un paradoxe troublant :
+D'un côté, nous avons : - Des milliers de jeunes talents brillants, passionnés de tech - Des entrepreneurs avec des idées innovantes qui répondent à de vrais problèmes locaux - Une population ultra-connectée (plus de 80% de taux de pénétration mobile) - Un marché en croissance explosive (le Mobile Money a atteint 1 400 milliards de dollars en Afrique en 2023)
+De l'autre côté, nous constatons : - Un taux d'échec de 90% pour les startups africaines dans leurs 3 premières années - Des talents qui quittent le continent faute d'opportunités structurées - Des entrepreneurs isolés qui abandonnent leurs projets par manque de soutien technique - Un écosystème fragmenté où chacun travaille dans son coin
+Le chaînon manquant ? Une structure qui transforme le potentiel brut en actifs technologiques viables et rentables.
+1.2. Notre Solution : Le Venture Studio RUDORE & Co
+RUDORE n'est pas : - ? Une simple agence de développement (on fait bien plus que coder) - ? Un incubateur classique (on ne donne pas juste des conseils, on construit avec vous) - ? Un fonds d'investissement (on n'investit pas que de l'argent, on investit notre expertise)
+RUDORE est : - ? Un Venture Studio : Une "usine à startups" qui crée des entreprises de A à Z - ? Un Écosystème Complet : Formation ? Emploi ? Entrepreneuriat ? Impact Social - ? Un Modèle Hybride : Une Agence qui finance un Studio qui crée des Entreprises - ? Un Collectif de Bâtisseurs : Pas de héros solitaire, mais une communauté qui construit ensemble
+1.3. Notre Promesse : "From Raw to Rare"
+"Du Brut à l'Exceptionnel" - C'est notre ADN.
+Concrètement, cela signifie :
+Pour les Talents : - Vous passez de "développeur freelance cherchant des missions" à "co-fondateur d'une startup avec 25% des parts" - Vous passez de "designer débutant" à "directeur créatif d'un produit utilisé par des milliers de personnes"
+Pour les Entrepreneurs : - Vous passez de "j'ai une idée mais je ne sais pas coder" à "j'ai un MVP fonctionnel en 10 jours" - Vous passez de "je cherche une équipe technique" à "j'ai une équipe de builders dédiés qui sont aussi mes associés"
+Pour les Clients : - Vous passez de "je veux un site web" à "j'ai une solution digitale professionnelle qui fait grandir mon business"
+
+2. LE CONTEXTE AFRICAIN : POURQUOI MAINTENANT ?
+2.1. Un Marché en Pleine Explosion
+Le Mobile Money : Le Nouveau Pétrole Africain
+En 2023, les transactions de Mobile Money en Afrique ont atteint 1 400 milliards de dollars. Pour vous donner une idée, c'est plus que le PIB de la Belgique ou de la Suisse.
+En clair : L'argent circule massivement sur mobile en Afrique. Mais beaucoup de ces transactions se font encore via USSD (les fameux codes *123#), car tout le monde n'a pas un smartphone dernier cri. C'est là qu'intervient notre produit KOODI : simplifier ces codes pour les rendre accessibles à tous.
+Exemple concret : Au lieu de retenir 15 codes différents pour payer vos factures (eau, électricité, école, etc.), KOODI vous donne un seul endroit où trouver tous ces codes instantanément, avec même des QR codes pour payer en un clic.
+
+Le Streaming Vidéo (SVOD) : Un Marché de 13 Millions d'Abonnés
+En 2025, l'Afrique compte 12,96 millions d'abonnés à des services comme Netflix, Showmax, Amazon Prime.
+Le problème : Ces abonnements coûtent cher quand on les paie seul (6 000 FCFA pour Netflix par exemple).
+La solution MIAMÈ : Pourquoi payer 6 000 FCFA seul quand vous pouvez partager un abonnement familial à 2 000 FCFA par personne ? MIAMÈ structure et sécurise ce partage. C'est simple, légal, et vous économisez 4 000 FCFA par mois.
+Impact : Un étudiant qui économise 4 000 FCFA/mois, c'est 48 000 FCFA par an. Assez pour payer ses livres scolaires ou une formation en ligne.
+
+Les USSD : 89% des Transactions dans la Zone WAEMU
+Dans la zone WAEMU (Union Économique et Monétaire Ouest-Africaine : Bénin, Burkina Faso, Côte d'Ivoire, Guinée-Bissau, Mali, Niger, Sénégal, Togo), 89% des transactions passent encore par USSD.
+Pourquoi ? Parce que : 1. Tout le monde n'a pas un smartphone (un simple téléphone à touches suffit) 2. Les zones rurales n'ont pas toujours une bonne connexion internet 3. C'est instantané (pas besoin de télécharger une app) 4. C'est universel (tous les opérateurs le supportent)
+En chiffres : 81,8 milliards de transactions USSD en 2024 en Afrique. C'est 224 millions de transactions par jour.
+2.2. Les Défis Actuels de l'Écosystème Tech Africain
+Problème 1 : La Fuite des Cerveaux
+Les meilleurs talents africains partent en Europe, en Amérique ou en Asie. Pourquoi ? Pas assez d'opportunités structurées au pays.
+Notre réponse : Avec RUDORE, un développeur togolais peut devenir co-fondateur d'une startup togolaise et toucher 25% des parts. Pas besoin de s'expatrier pour réussir.
+
+Problème 2 : L'Isolement des Entrepreneurs
+Un entrepreneur africain typique doit être : - Son propre développeur (et payer 500 000 FCFA par mois un dev freelance) - Son propre designer (et passer des semaines sur Figma sans formation) - Son propre marketeur (et perdre du temps sur des stratégies qui ne marchent pas)
+Notre réponse : RUDORE vous fournit l'équipe complète. Vous vous concentrez sur la vision et le marché, nous gérons la tech.
+
+Problème 3 : Le Manque de Transparence dans le Financement
+Les fonds d'investissement classiques demandent souvent 30% à 50% de votre entreprise dès le début. Et parfois, après avoir pris votre argent, ils ne vous aident pas vraiment.
+Notre réponse : RUDORE prend seulement 15% et vous fournit une équipe complète de builders. Le fondateur garde 60%, et les builders prennent 25%. Tout le monde a "la peau dans le jeu" (skin in the game).
+
+3. NOTRE ARCHITECTURE À 4 PILIERS
+RUDORE fonctionne comme un écosystème vivant avec 4 piliers qui se renforcent mutuellement :
++--------------------------------------------------------+
+¦           ?? RUDORE & Co (HOLDING)                     ¦
+¦        La Société Mère qui Orchestre Tout              ¦
++--------------------------------------------------------+
+                         ¦
+        +----------------+----------------+
+        ¦                ¦                ¦
+        ?                ?                ?                ?
++--------------+ +--------------+ +--------------+ +--------------+
+¦ ?? PILIER 1  ¦ ¦ ?? PILIER 2  ¦ ¦ ?? PILIER 3  ¦ ¦ ?? PILIER 4  ¦
+¦ COMMUNAUTÉ   ¦ ¦   AGENCE     ¦ ¦   STUDIO     ¦ ¦   SOCIAL     ¦
+¦              ¦ ¦              ¦ ¦              ¦ ¦              ¦
+¦ Les Pros de  ¦ ¦   RUDORE     ¦ ¦   RUDORE     ¦ ¦    DoAsi     ¦
+¦  la Tech     ¦ ¦   Services   ¦ ¦    Studio    ¦ ¦              ¦
+¦   (LPT)      ¦ ¦              ¦ ¦              ¦ ¦              ¦
++--------------+ +--------------+ +--------------+ +--------------+
+3.1. PILIER 1 : La Communauté (Les Pros de la Tech - LPT)
+C'est quoi ? LPT est notre "école" de formation et de détection des talents tech africains.
+À quoi ça sert ? - Former des gens qui n'ont aucune base en code ou design - Les orienter vers leur vraie passion (certains pensent vouloir coder mais sont en fait excellents en design) - Les certifier via un système de Badges (comme les ceintures au judo) - Recruter les meilleurs pour l'Agence et le Studio
+Qui peut rejoindre ? - Tout jeune passionné de tech (même sans diplôme) - Les étudiants qui veulent une formation pratique (pas juste de la théorie) - Les reconversions professionnelles (vous êtes comptable mais vous rêvez de coder ? Bienvenue)
+Le système de Badges :
+1. Badge INITIATE (Jaune) : Vous avez validé le Personal Branding (vous savez vous présenter professionnellement)
+2. Badge SKILL : Vous maîtrisez une compétence technique
+- Design Badge (Magenta) : UI/UX, graphisme
+- Dev Badge (Bleu) : Code web ou mobile
+- No-Code Badge (Vert) : Webflow, Bubble, etc.
+3. Badge BUILDER (Noir & Or) : Le Graal. Vous avez livré un vrai projet. Vous êtes éligible pour rejoindre l'Agence ou le Studio.
+En chiffres : - Formation accessible (frais symboliques pour prouver votre engagement) - Parcours de 3 à 6 mois selon votre rythme - Garantie d'opportunité : Les meilleurs sont recrutés par RUDORE
+3.2. PILIER 2 : L'Agence (RUDORE Services)
+C'est quoi ? L'Agence est notre branche "prestations de services". On aide les entreprises togolaises et internationales à créer leurs solutions digitales.
+Qu'est-ce qu'on vend ? - MVP en 10 jours : Vous avez une idée, on la transforme en application fonctionnelle en 10 jours - Développement sur mesure : Sites web, applications mobiles, plateformes e-commerce - Design & Branding : Logo, identité visuelle, interfaces modernes - Consulting technique : Vous ne savez pas quelle technologie utiliser ? On vous conseille
+Pourquoi c'est important pour RUDORE ? L'Agence est notre moteur financier. Elle génère des revenus immédiats qui payent : - Les salaires de toute l'équipe (développeurs, designers, marketeurs) - Les locaux et les équipements - Le financement initial des projets du Studio (avant qu'ils ne deviennent rentables)
+La garantie client : Quand vous travaillez avec l'Agence RUDORE, vous gardez 100% de la propriété intellectuelle. On ne prend AUCUNE part dans votre entreprise. Vous payez nos services, point final.
+En chiffres (objectifs) : - Chiffre d'affaires mensuel cible : 15 à 30 millions FCFA - Marge nette : 25% (soit 3,75 à 7,5 millions FCFA de bénéfice net par mois) - 20% de ce bénéfice (750 000 à 1,5M FCFA) réinvesti automatiquement dans le Studio
+3.3. PILIER 3 : Le Studio (RUDORE Studio)
+C'est quoi ? Le Studio est notre "usine à startups". On crée nos propres produits (comme MIAMÈ, KOODI) ou on co-crée avec des entrepreneurs externes.
+Comment ça marche ?
+Scénario 1 : Projet Interne - L'équipe RUDORE a une idée de produit - On valide le marché (recherches, interviews utilisateurs) - On construit le MVP en interne - On lance et on teste - Si ça marche, ça devient une entreprise autonome (spin-off)
+Scénario 2 : Co-Création avec Entrepreneur Externe - Un entrepreneur a une idée mais pas d'équipe technique - Il vient voir RUDORE - On lui fournit l'équipe (développeurs, designers) - Répartition du capital : 60% Entrepreneur / 25% Builders / 15% RUDORE
+Pourquoi le Studio est crucial ? - C'est là qu'on crée du patrimoine (des entreprises qui nous appartiennent en partie) - C'est là qu'on donne aux talents la chance de devenir actionnaires (les 25%) - C'est là qu'on innove vraiment (on teste des idées folles sans avoir à convaincre un client)
+En chiffres : - Objectif : 2 à 4 nouveaux projets validés par an - Budget par projet : 5 à 15 millions FCFA (financé par l'Agence) - Taux de succès visé : 30% à 50% (dans le venture studio mondial, c'est 20-30%)
+3.4. PILIER 4 : Le Social (DoAsi)
+C'est quoi ? DoAsi est notre initiative sociale. On aide les orphelins togolais de manière structurée et transparente.
+Le problème qu'on résout : Aujourd'hui, les dons aux orphelins sont saisonniers (Noël, Pâques, Ramadan). Mais un enfant a besoin d'aide toute l'année. Ses frais scolaires ne s'arrêtent pas en janvier.
+Notre solution : - Une plateforme de parrainage mensuel (comme parrainer un enfant pour 10 000, 20 000 ou 50 000 FCFA par mois) - 100% de transparence : Vous voyez où va votre argent (factures scolaires, frais médicaux, nourriture) - Désaisonnalisation de la charité : Un impact régulier, pas juste un coup de cœur de Noël
+Pourquoi c'est dans RUDORE ? Parce que la tech au service de l'impact social, c'est notre ADN. On ne veut pas juste créer des entreprises rentables, on veut créer un impact durable.
+En chiffres : - Objectif 2026 : 100 enfants parrainés - Financement : Une partie des bénéfices de RUDORE + dons volontaires des membres de l'équipe
+
+4. LE MODÈLE HYBRIDE : AGENCE + STUDIO
+4.1. Pourquoi ce Modèle est Unique
+Le problème des modèles classiques :
+Modèle "Agence Pure" : - ? Avantage : Revenus immédiats - ? Inconvénient : Vous vendez votre temps. Pas de patrimoine. Si vous arrêtez de travailler, vous arrêtez de gagner.
+Modèle "Startup Pure" : - ? Avantage : Vous créez du patrimoine - ? Inconvénient : Pas de revenus pendant 2-3 ans. Il faut lever des fonds (et se diluer).
+Notre Modèle "Hybride Agence + Studio" : - ? L'Agence génère des revenus immédiats - ? Le Studio crée du patrimoine à long terme - ? Les deux se renforcent mutuellement
+4.2. Comment les Deux se Renforcent
+L'Agence finance le Studio : - Règle des 20% : On réinvestit systématiquement 20% du bénéfice net de l'Agence dans le Studio - Exemple concret : Si l'Agence fait 5 millions FCFA de bénéfice net en janvier, 1 million FCFA va automatiquement financer les projets du Studio en février
+Le Studio rend à la Holding (Bill Back) : - Quand un projet du Studio devient rentable ou lève des fonds, il rembourse la Holding - Cet argent retourne à l'Agence pour financer de nouveaux projets
+L'Agence forme les talents du Studio : - Les développeurs de l'Agence travaillent d'abord sur des projets clients (ils apprennent, ils se professionnalisent) - Les meilleurs sont ensuite invités à rejoindre les projets du Studio (et devenir actionnaires)
+4.3. Le Cycle Vertueux
+1. AGENCE génère 15M FCFA de CA
+   ?
+2. Marge nette de 25% = 3,75M FCFA
+   ?
+3. 20% réinvestis = 750 000 FCFA vont au STUDIO
+   ?
+4. STUDIO lance un projet (Budget 5M FCFA sur 6 mois)
+   ?
+5. Projet devient rentable ou lève 50M FCFA
+   ?
+6. STUDIO rembourse 5M FCFA à la HOLDING
+   ?
+7. Retour à l'étape 1 (on recommence le cycle)
+En clair : Plus l'Agence performe, plus le Studio peut lancer de projets. Plus le Studio réussit, plus la Holding récupère d'argent pour réinvestir. C'est un cercle vertueux.
+
+5. SPEEDMAKER : NOTRE VITRINE STRATÉGIQUE
+5.1. SpeedMaker, C'est Quoi ?
+SpeedMaker est notre plateforme de visibilité et de mise en relation. C'est à la fois : - ?? Un média tech (on publie des articles sur l'innovation africaine) - ?? Un incubateur (on aide les porteurs de projets à structurer leurs idées) - ?? Une bourse de startups (futur : on permettra aux gens d'investir dans les startups africaines)
+5.2. À Quoi Ça Sert Concrètement ?
+Pour les Startups du Studio : - Visibilité gratuite (on parle de vos projets) - Crédibilité (le label "Studio-Backed" = vous avez passé notre filtre de qualité) - Accès aux investisseurs (on attire les investisseurs sur la plateforme)
+Pour les Entrepreneurs Externes : - Inspiration (vous voyez ce qui se fait en Afrique) - Opportunités (vous pouvez proposer votre projet pour une co-création avec RUDORE) - Networking (vous rencontrez d'autres entrepreneurs, des développeurs, des designers)
+Pour les Investisseurs : - Deal Flow de qualité (des projets déjà validés par RUDORE) - Réduction du risque (les projets ont un MVP fonctionnel, pas juste une idée) - Transparence (vous voyez les métriques : utilisateurs, revenus, croissance)
+5.3. Le Concept du "Market Network"
+SpeedMaker n'est pas juste un site d'annonces. C'est un Market Network (Réseau de Marché).
+Qu'est-ce que c'est ?
+Un Market Network combine 3 éléments :
+1. Le Réseau Social :
+- Vous créez un profil (comme LinkedIn)
+- Vous suivez des startups, des talents, des investisseurs
+- Vous échangez, vous apprenez
+2. La Place de Marché :
+- Les startups cherchent des investisseurs
+- Les investisseurs cherchent des startups
+- Les porteurs de projets cherchent des développeurs
+3. Le SaaS (Outils Professionnels) :
+- Signature de contrats d'équité en ligne
+- Suivi des investissements (dashboards)
+- Reporting automatique pour les investisseurs
+Exemple concret :
+Jean a une idée de startup (une app pour les motos-taxis à Lomé).
+1. Il s'inscrit sur SpeedMaker et crée son profil
+2. Il poste son idée avec une vidéo explicative
+3. Des développeurs voient son profil et proposent de l'aider
+4. Un investisseur de la diaspora voit le projet et investit 5 millions FCFA
+5. Tout se fait via SpeedMaker : signature du contrat, versement sécurisé, suivi du projet
+Résultat : Jean a trouvé son équipe ET son financement en 3 semaines.
+5.4. Les Effets de Réseau (Pourquoi Ça Devient de Plus en Plus Puissant)
+Principe : Plus il y a de monde sur SpeedMaker, plus la plateforme a de la valeur.
+Concrètement :
+• Au début : 10 startups + 5 investisseurs = peu de chances de match
+• Après 6 mois : 50 startups + 30 investisseurs = beaucoup plus d'opportunités
+• Après 2 ans : 200 startups + 100 investisseurs + 500 talents = écosystème complet
+Pourquoi les gens reviennent ? - Les startups : "Si je ne suis pas sur SpeedMaker, je rate des investisseurs" - Les investisseurs : "Si je ne suis pas sur SpeedMaker, je rate les bons deals" - Les talents : "Si je ne suis pas sur SpeedMaker, je rate les meilleures opportunités"
+C'est ce qu'on appelle le FOMO (Fear Of Missing Out) = La peur de rater quelque chose.
+
+6. LE PARCOURS DU TALENT : DE LA FORMATION À L'ENTREPRENEURIAT
+6.1. Les 5 Étapes du Parcours
+Chez RUDORE, vous ne restez pas bloqué à un seul niveau. Vous avez un chemin de carrière clair :
+ÉTAPE 1               ÉTAPE 2             ÉTAPE 3              ÉTAPE 4              ÉTAPE 5
+?? Apprenant    ?    ?? Salarié    ?    ?? Builder    ?    ?? Co-Fondateur  ?   ?? Fondateur
+(LPT)                (Agence)           (Studio)           (Spin-off 25%)       (Nouveau Projet 60%)
+Explication détaillée :
+ÉTAPE 1 : Apprenant (LPT - La Communauté) - Vous ne savez rien en tech - Vous suivez nos formations (Personal Branding + Design ou Dev) - Vous obtenez vos premiers Badges - Durée : 3 à 6 mois
+ÉTAPE 2 : Salarié (Agence) - Vous avez le Badge BUILDER - L'Agence vous recrute (salaire fixe mensuel) - Vous travaillez sur des projets clients réels - Vous apprenez les standards professionnels - Durée : 6 mois à 2 ans
+ÉTAPE 3 : Builder (Studio) - Vous êtes un excellent performer dans l'Agence - On vous invite à rejoindre un projet du Studio - Vous devenez actionnaire (vous recevez des parts via le système des 25%) - Vous travaillez sur un produit qui vous appartient en partie - Durée : 6 mois à 2 ans
+ÉTAPE 4 : Co-Fondateur (Spin-off) - Le projet du Studio devient une entreprise autonome - Vous êtes officiellement co-fondateur avec vos 25% de parts - Vous touchez des dividendes si l'entreprise est rentable - Vous pouvez revendre vos parts si l'entreprise est rachetée
+ÉTAPE 5 : Fondateur (Nouveau Projet) - Vous avez acquis toute l'expérience nécessaire - Vous avez votre propre idée de startup - Vous revenez à RUDORE mais cette fois en tant qu'entrepreneur (60% pour vous) - RUDORE vous fournit l'équipe complète
+6.2. Exemple Concret : L'Histoire de Koffi
+Koffi, 24 ans, Comptable au Chômage
+Mois 0 (Janvier 2025) : - Koffi perd son emploi de comptable - Il a toujours aimé les ordinateurs mais n'a jamais appris à coder - Il découvre LPT sur les réseaux sociaux
+Mois 1-4 (Février-Mai 2025) : - Koffi s'inscrit à LPT - Il suit la formation Personal Branding (Badge Initiate) - Il teste Design ET Dev... il adore le Dev - Il obtient son Dev Badge (Bleu) en mai
+Mois 5-8 (Juin-Septembre 2025) : - Koffi participe à un projet de groupe : créer une app de gestion de stock - Il livre un excellent travail - Il obtient son Badge BUILDER (Noir & Or)
+Mois 9 (Octobre 2025) : - L'Agence RUDORE recrute Koffi - Salaire : 150 000 FCFA/mois (il est junior) - Il travaille sur des sites web pour des clients togolais
+Mois 15 (Avril 2026) : - Koffi est devenu excellent - On lui propose de rejoindre le projet KOODI (codes USSD) - Il accepte - Il reçoit 5% du capital de KOODI (sur les 25% réservés aux Builders)
+Mois 24 (Janvier 2027) : - KOODI a 50 000 utilisateurs et génère 3 millions FCFA/mois - Koffi touche ses premiers dividendes : 150 000 FCFA (en plus de son salaire) - Il garde aussi son salaire de l'Agence : 200 000 FCFA (il a eu une augmentation) - Total : 350 000 FCFA/mois
+Mois 30 (Juillet 2027) : - KOODI lève 200 millions FCFA auprès d'investisseurs - Les 5% de Koffi valent maintenant 10 millions FCFA - Il décide de garder ses parts (il croit au projet)
+Mois 36 (Janvier 2028) : - Koffi a une idée : une app pour gérer les tontines digitales au Togo - Il propose le projet à RUDORE - RUDORE accepte : 60% Koffi / 25% Builders / 15% RUDORE - Koffi devient Fondateur de sa propre startup à 27 ans
+Résultat : En 3 ans, Koffi est passé de "comptable au chômage" à "fondateur de startup avec 60% des parts + actionnaire d'une autre startup à succès".
+
+7. CONCLUSION DE LA PARTIE 1
+Ce Qu'Il Faut Retenir
+RUDORE & Co, c'est :
+1. Un Écosystème Complet : Formation ? Emploi ? Entrepreneuriat ? Impact Social
+2. Un Modèle Hybride Unique : L'Agence finance le Studio, le Studio crée du patrimoine
+3. Une Promesse Méritocratique : Peu importe d'où vous venez, si vous êtes bon, vous montez
+4. Un Ancrage Africain : On résout des problèmes africains avec des solutions africaines
+5. Une Vision Long Terme : On ne crée pas des jobs, on crée des entrepreneurs
+Les Chiffres à Retenir :
+• 60% / 25% / 15% : Notre split d'équité unique
+• 1 400 milliards $ : Le marché du Mobile Money en Afrique
+• 12,96 millions : Les abonnés SVOD en Afrique
+• 89% : Part des transactions USSD dans la zone WAEMU
+• 20% : Part des bénéfices de l'Agence réinvestie dans le Studio
+
+?? PROCHAINE PARTIE : PARTIE 2 - MODÈLE ÉCONOMIQUE & FINANCIER - Comment l'argent circule dans RUDORE - Le mécanisme du Bill Back expliqué simplement - Pourquoi 60/25/15 et pas 33/33/33 - Les aspects légaux (Loi de Finances Togo 2025, OHADA) - Les marges, les salaires, la rentabilité
+
+Document créé par RUDORE & Co Version 2.0 - Janvier 2026 "From Raw to Rare"
