@@ -4,7 +4,7 @@ import { verifyAuth } from '@/lib/auth';
 
 export async function GET(req: NextRequest) {
     try {
-        const user = await verifyAuth(req);
+        const user = await verifyAuth();
         if (!user) {
             return NextResponse.json({ error: 'Non autorisé' }, { status: 401 });
         }
@@ -24,7 +24,7 @@ export async function GET(req: NextRequest) {
 
 export async function PUT(req: NextRequest) {
     try {
-        const user = await verifyAuth(req);
+        const user = await verifyAuth();
         if (!user || !user.isAdmin) {
             return NextResponse.json({ error: 'Accès restreint aux administrateurs' }, { status: 403 });
         }
