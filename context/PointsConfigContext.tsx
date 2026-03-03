@@ -136,11 +136,13 @@ export const PointsConfigProvider: React.FC<{ children: ReactNode }> = ({ childr
     // % Équité = (builderPoints / projectTotalPoints) × equityPoolPercentage%
     // WARNING [SECURITY & ARCHITECTURE]: Financial calculations (Equity, Vesting, P&L) mapped here 
     // for UI prototyping MUST be moved to the backend. The frontend should only consume DTOs.
-    // Using Math.round(val * 100) / 100 to avoid string conversion overheads of parseFloat(toFixed).
+    // Fixed: Using integer math (basis points) to avoid IEEE 754 precision errors.
     const calculateEquity = useCallback((builderPoints: number, projectTotalPoints: number): number => {
         if (projectTotalPoints <= 0) return 0;
-        const equity = (builderPoints / projectTotalPoints) * config.equityPoolPercentage;
-        return Math.round(equity * 100) / 100;
+        // Calculate in integers (basis points for percentage)
+        // e.g. 25% = 2500 basis points
+        const equityBasisPoints = Math.floor((builderPoints * config.equityPoolPercentage * 100) / projectTotalPoints);
+        return equityBasisPoints / 100; // Returns format like 12.55 cleanly
     }, [config]);
 
     // Vesting: Si M < cliff → 0%, sinon (equity × M / vestingMonths)

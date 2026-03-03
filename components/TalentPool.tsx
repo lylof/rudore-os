@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useDeferredValue } from 'react';
 import { Member, Skill, Department } from '../types';
 import { Zap, Battery, BatteryMedium, BatteryLow, Search } from 'lucide-react';
 
@@ -48,15 +48,16 @@ const SkillRow: React.FC<{ skill: Skill }> = ({ skill }) => (
 export const TalentPool: React.FC<TalentPoolProps> = ({ members }) => {
   const [filter, setFilter] = useState<'ALL' | Department>('ALL');
   const [search, setSearch] = useState('');
+  const deferredSearch = useDeferredValue(search);
 
   const filteredMembers = useMemo(() => {
-    const lowerSearch = search.toLowerCase();
+    const lowerSearch = deferredSearch.toLowerCase();
     return members.filter(m => {
       const matchesFilter = filter === 'ALL' ? true : m.department === filter;
       const matchesSearch = m.name.toLowerCase().includes(lowerSearch) || m.role.toLowerCase().includes(lowerSearch);
       return matchesFilter && matchesSearch;
     });
-  }, [members, filter, search]);
+  }, [members, filter, deferredSearch]);
 
   return (
     <div className="space-y-6 animate-in fade-in slide-in-from-bottom-4 duration-500">

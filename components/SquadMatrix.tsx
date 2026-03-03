@@ -58,7 +58,7 @@ interface MemberCardProps {
   onUpdateRole: (id: string, newRole: string) => void;
 }
 
-const MemberCard: React.FC<MemberCardProps> = ({ member, actionIcon: Icon, onAction, actionColor, onUpdateRole }) => {
+const MemberCard: React.FC<MemberCardProps> = React.memo(({ member, actionIcon: Icon, onAction, actionColor, onUpdateRole }) => {
   const [isEditing, setIsEditing] = useState(false);
   const [roleValue, setRoleValue] = useState(member.role);
 
@@ -123,7 +123,8 @@ const MemberCard: React.FC<MemberCardProps> = ({ member, actionIcon: Icon, onAct
       </button>
     </div>
   );
-};
+});
+MemberCard.displayName = "MemberCard";
 
 // Helper for short labels in filter
 const getDeptLabel = (dept: Department | 'ALL') => {
@@ -149,17 +150,17 @@ export const SquadMatrix: React.FC<SquadMatrixProps> = ({ members: initialMember
   const [isStatusDropdownOpen, setIsStatusDropdownOpen] = useState(false);
   const [departmentFilter, setDepartmentFilter] = useState<Department | 'ALL'>('ALL');
 
-  const toggleAssignment = (id: string) => {
+  const toggleAssignment = React.useCallback((id: string) => {
     setMembers(prev => prev.map(m =>
       m.id === id ? { ...m, assigned: !m.assigned } : m
     ));
-  };
+  }, []);
 
-  const updateMemberRole = (id: string, newRole: string) => {
+  const updateMemberRole = React.useCallback((id: string, newRole: string) => {
     setMembers(prev => prev.map(m =>
       m.id === id ? { ...m, role: newRole } : m
     ));
-  };
+  }, []);
 
   const handleStatusChange = (newStatus: Status) => {
     setProjectInfo(prev => ({ ...prev, status: newStatus }));
