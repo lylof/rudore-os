@@ -79,15 +79,15 @@ const AppContent: React.FC = () => {
       case 'DASHBOARD':
         return flags.ENABLE_DASHBOARD && hasPermission('DASHBOARD') ? <BentoGrid projects={projects} members={members} onNavigate={(view) => setCurrentView(view as ViewState)} /> : null;
       case 'SQUADS':
-        return flags.ENABLE_SQUADS && hasPermission('SQUADS') ? <SquadMatrix /> : null;
+        return flags.ENABLE_SQUADS && hasPermission('SQUADS') ? <SquadMatrix members={members} /> : null;
       case 'TALENTS':
         return flags.ENABLE_TALENTS && hasPermission('TALENTS') ? <TalentPool members={members} /> : null;
       case 'CONTRIBUTIONS':
         return flags.ENABLE_CONTRIBUTIONS && hasPermission('CONTRIBUTIONS') ? <Contributions members={members} /> : null;
       case 'STUDIO':
-        return flags.ENABLE_STUDIO && hasPermission('STUDIO') ? <ProjectHub projects={projects.filter(p => p.type === 'STUDIO')} type="STUDIO" /> : null;
+        return flags.ENABLE_STUDIO && hasPermission('STUDIO') ? <ProjectHub projects={projects.filter(p => p.type === 'STUDIO')} type="STUDIO" members={members} /> : null;
       case 'AGENCY':
-        return flags.ENABLE_AGENCY && hasPermission('AGENCY') ? <ProjectHub projects={projects.filter(p => p.type === 'AGENCY')} type="AGENCY" /> : null;
+        return flags.ENABLE_AGENCY && hasPermission('AGENCY') ? <ProjectHub projects={projects.filter(p => p.type === 'AGENCY')} type="AGENCY" members={members} /> : null;
       case 'KANBAN':
         return flags.ENABLE_KANBAN && hasPermission('KANBAN') ? <KanbanBoard members={members} projects={projects} /> : null;
       case 'SETTINGS':
