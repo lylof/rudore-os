@@ -35,7 +35,7 @@ export async function POST(request: Request) {
 
         const result = await query(
             'INSERT INTO access_roles (id, name, description, permissions) VALUES ($1, $2, $3, $4) RETURNING *',
-            [id, name, description, permissions]
+            [id, name, description, JSON.stringify(permissions)]
         );
 
         return NextResponse.json(result.rows[0]);

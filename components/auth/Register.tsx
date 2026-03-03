@@ -40,43 +40,14 @@ export const Register: React.FC<RegisterProps> = ({ onLoginClick }) => {
       const data = await response.json();
 
       if (!response.ok) {
-        // --- BYPASS FOR FRONTEND TESTING ---
-        console.warn('Backend registration failed. Bypassing for frontend testing.');
-        login({
-          id: 'dev-user-reg',
-          name: formData.name || 'Nouveau Membre',
-          email: formData.email,
-          role: formData.role || 'Junior',
-          department: 'TECH',
-          avatarInitials: formData.name ? formData.name.substring(0, 2).toUpperCase() : 'NM',
-          level: 'JUNIOR',
-          availability: 100,
-          skills: [],
-          wallet: { totalPoints: 0, currentMonthPoints: 0, equityValue: 0 },
-          isAdmin: false,
-          permissions: ['PROFILE'] // Limited permissions initially unless promoted
-        } as any);
+        setError(data.message || 'Erreur lors de la création du compte');
         return;
       }
 
       login(data.user);
     } catch (err: any) {
-      // Catch network errors and still bypass
-      console.warn('Network error or backend unavailable. Bypassing for frontend testing.');
-      login({
-        id: 'dev-user-reg',
-        name: formData.name || 'Nouveau Membre',
-        email: formData.email,
-        role: formData.role || 'Junior',
-        department: 'TECH',
-        avatarInitials: formData.name ? formData.name.substring(0, 2).toUpperCase() : 'NM',
-        level: 'JUNIOR',
-        availability: 100,
-        skills: [],
-        wallet: { totalPoints: 0, currentMonthPoints: 0, equityValue: 0 },
-        isAdmin: false,
-        permissions: ['PROFILE']
-      } as any);
+      console.error('Network error during registration:', err);
+      setError('Erreur réseau ou serveur indisponible.');
     } finally {
       setLoading(false);
     }

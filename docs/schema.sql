@@ -5,7 +5,7 @@ CREATE TABLE IF NOT EXISTS access_roles (
     id TEXT PRIMARY KEY,
     name TEXT NOT NULL,
     description TEXT,
-    permissions TEXT[] NOT NULL,
+    permissions JSONB NOT NULL,
     is_system BOOLEAN DEFAULT false,
     created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
 );
@@ -95,7 +95,7 @@ CREATE TABLE IF NOT EXISTS points_config (
 
 -- Initial Roles Data
 INSERT INTO access_roles (id, name, description, permissions, is_system) VALUES
-('admin', 'Administrateur', 'Accès complet au système', ARRAY['VIEW_DASHBOARD', 'VIEW_STUDIO', 'VIEW_AGENCY', 'VIEW_SQUADS', 'VIEW_TALENTS', 'VIEW_CONTRIBUTIONS', 'MANAGE_SETTINGS', 'MANAGE_ROLES', 'MANAGE_USERS'], true),
-('builder', 'Builder', 'Accès aux outils de production', ARRAY['VIEW_DASHBOARD', 'VIEW_STUDIO', 'VIEW_AGENCY', 'VIEW_SQUADS', 'VIEW_TALENTS', 'KANBAN'], true),
-('viewer', 'Visiteur', 'Accès lecture seule', ARRAY['VIEW_DASHBOARD'], true)
+('admin', 'Administrateur', 'Accès complet au système', '["VIEW_DASHBOARD", "VIEW_STUDIO", "VIEW_AGENCY", "VIEW_SQUADS", "VIEW_TALENTS", "VIEW_CONTRIBUTIONS", "MANAGE_SETTINGS", "MANAGE_ROLES", "MANAGE_USERS"]'::jsonb, true),
+('builder', 'Builder', 'Accès aux outils de production', '["VIEW_DASHBOARD", "VIEW_STUDIO", "VIEW_AGENCY", "VIEW_SQUADS", "VIEW_TALENTS", "KANBAN"]'::jsonb, true),
+('viewer', 'Visiteur', 'Accès lecture seule', '["VIEW_DASHBOARD"]'::jsonb, true)
 ON CONFLICT (id) DO NOTHING;
