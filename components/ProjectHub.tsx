@@ -50,7 +50,7 @@ const ProjectBuilderModal = ({ onClose, type, onSave, members }: { onClose: () =
             <div className="bg-rudore-panel border border-rudore-border w-full max-w-2xl shadow-2xl flex flex-col max-h-[90vh]">
                 <div className="flex justify-between items-center p-6 border-b border-rudore-border">
                     <h3 className="font-header text-xl text-rudore-text uppercase tracking-widest">
-                        Nouveau Projet {type}
+                        Créer un projet {type}
                     </h3>
                     <button onClick={onClose} className="text-rudore-text/50 hover:text-rudore-orange transition-colors">
                         <X size={20} />
@@ -146,7 +146,7 @@ const ProjectBuilderModal = ({ onClose, type, onSave, members }: { onClose: () =
                         disabled={!name}
                         className="px-6 py-2 bg-rudore-orange text-white text-xs font-bold uppercase tracking-wider hover:brightness-110 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
                     >
-                        Créer le Projet
+                        Valider le projet
                     </button>
                 </div>
             </div>
@@ -180,7 +180,7 @@ export const ProjectHub: React.FC<ProjectHubProps> = ({ projects: initialProject
                     onClick={() => setShowBuilder(true)}
                     className="px-4 py-2 border border-dashed border-rudore-border text-rudore-text/50 text-xs font-bold uppercase tracking-wider hover:text-rudore-orange hover:border-rudore-orange transition-colors"
                 >
-                    + Nouveau Projet
+                    + Créer un projet
                 </button>
             </div>
 
@@ -233,7 +233,7 @@ export const ProjectHub: React.FC<ProjectHubProps> = ({ projects: initialProject
                                 {/* Financials (P&L) */}
                                 <div className="col-span-12 lg:col-span-4 bg-rudore-sidebar/50 p-4 border border-rudore-border">
                                     <h4 className="flex items-center gap-2 text-xs font-bold text-rudore-text/60 uppercase tracking-widest mb-4">
-                                        <DollarSign size={14} /> P&L & Equity
+                                        <DollarSign size={14} /> Bilan & Parts
                                     </h4>
                                     <div className="space-y-4">
                                         <div>
@@ -247,7 +247,7 @@ export const ProjectHub: React.FC<ProjectHubProps> = ({ projects: initialProject
                                         {project.type === 'STUDIO' && (
                                             <div className="pt-4 mt-4 border-t border-rudore-border/30">
                                                 <div className="flex justify-between text-caption-label mb-2 font-black uppercase tracking-widest">
-                                                    <span className="text-rudore-orange">Bill Back (Dette)</span>
+                                                    <span className="text-rudore-orange">Avance de fonds</span>
                                                     <span className="text-rudore-text">{project.financials.spent}k XOF</span>
                                                 </div>
                                                 <div className="flex justify-between text-caption-label mb-1 font-bold uppercase tracking-tighter text-rudore-text/40 italic">
@@ -266,7 +266,7 @@ export const ProjectHub: React.FC<ProjectHubProps> = ({ projects: initialProject
 
                                         <div className={project.type === 'STUDIO' ? 'pt-2' : ''}>
                                             <div className="flex justify-between text-xs mb-1">
-                                                <span className="text-rudore-text/50">Pool Team (Actions)</span>
+                                                <span className="text-rudore-text/50">Parts allouées à l'équipe</span>
                                                 <span className="text-rudore-orange font-mono font-bold">{project.financials.equityPool}%</span>
                                             </div>
                                             <ProgressBar value={project.financials.equityPool} color="bg-rudore-orange" />
@@ -286,16 +286,16 @@ export const ProjectHub: React.FC<ProjectHubProps> = ({ projects: initialProject
                                             return (
                                                 <div className="mt-4 pt-4 border-t border-rudore-border">
                                                     <div className="flex justify-between items-center mb-3">
-                                                        <h4 className="text-caption-label font-black text-rudore-text/40 uppercase tracking-[0.2em]">Kill Gate Status</h4>
+                                                        <h4 className="text-caption-label font-black text-rudore-text/40 uppercase tracking-[0.2em]">Indicateurs de Vie</h4>
                                                         <div className="flex gap-1">
                                                             {isKill ? (
-                                                                <span className="px-2 py-0.5 bg-rudore-orange text-white text-caption-label font-black uppercase tracking-widest border border-rudore-orange/50 animate-pulse">STATUS: KILL / PIVOT</span>
+                                                                <span className="px-2 py-0.5 bg-rudore-orange text-white text-caption-label font-black uppercase tracking-widest border border-rudore-orange/50 animate-pulse">ACTION : PIVOT REQUIS</span>
                                                             ) : isWarning ? (
-                                                                <span className="px-2 py-0.5 bg-yellow-600 text-white text-caption-label font-black uppercase tracking-widest border border-yellow-400">STATUS: WARNING</span>
+                                                                <span className="px-2 py-0.5 bg-yellow-600 text-white text-caption-label font-black uppercase tracking-widest border border-yellow-400">ALERTE BUDGET</span>
                                                             ) : isGreen ? (
-                                                                <span className="px-2 py-0.5 bg-emerald-600 text-white text-caption-label font-black uppercase tracking-widest border border-emerald-400">STATUS: GO_GREEN</span>
+                                                                <span className="px-2 py-0.5 bg-emerald-600 text-white text-caption-label font-black uppercase tracking-widest border border-emerald-400">PROJET SAIN</span>
                                                             ) : (
-                                                                <span className="px-2 py-0.5 bg-rudore-sidebar text-rudore-text/60 text-caption-label font-black uppercase tracking-widest border border-rudore-border">STATUS: MONITORING</span>
+                                                                <span className="px-2 py-0.5 bg-rudore-sidebar text-rudore-text/60 text-caption-label font-black uppercase tracking-widest border border-rudore-border">EN ANALYSE</span>
                                                             )}
                                                         </div>
                                                     </div>

@@ -109,10 +109,10 @@ export const KanbanBoard: React.FC<KanbanBoardProps> = ({ members, projects }) =
             <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-4">
                 <div>
                     <h2 className="font-header text-3xl font-bold text-rudore-text uppercase tracking-widest">
-                        Gestion de Projet
+                        Gestion des Tâches
                     </h2>
                     <p className="text-rudore-text/50 font-mono text-xs mt-1 uppercase">
-                        Tableau Kanban • Système de points intégré
+                        Tableau Kanban • Points de contribution intégrés
                     </p>
                 </div>
                 <div className="flex items-center gap-3 flex-wrap">
@@ -198,8 +198,8 @@ export const KanbanBoard: React.FC<KanbanBoardProps> = ({ members, projects }) =
                             {/* Column Cards */}
                             <div className="p-2 space-y-2 flex-1 overflow-y-auto">
                                 {columnTasks.length === 0 ? (
-                                    <div className="flex items-center justify-center h-24 text-rudore-text/20 text-[10px] uppercase font-bold tracking-widest border border-dashed border-rudore-border mt-2">
-                                        Pipeline vide
+                                    <div className="flex items-center justify-center p-4 text-center text-rudore-text/20 text-[10px] uppercase font-bold tracking-widest border border-dashed border-rudore-border mt-2 leading-relaxed">
+                                        Aucune tâche ici.<br />Commencez par en ajouter une.
                                     </div>
                                 ) : (
                                     columnTasks.map(task => (
@@ -221,7 +221,7 @@ export const KanbanBoard: React.FC<KanbanBoardProps> = ({ members, projects }) =
                                     className="w-full flex items-center justify-center gap-1.5 py-3 text-[10px] text-rudore-text/40 hover:text-rudore-orange hover:bg-white dark:hover:bg-rudore-sidebar/50 transition-all uppercase font-black tracking-[0.2em]"
                                 >
                                     <Plus size={12} strokeWidth={3} />
-                                    Nouveau
+                                    Ajouter une tâche
                                 </button>
                             </div>
                         </div>

@@ -63,15 +63,15 @@ export const TalentPool: React.FC<TalentPoolProps> = ({ members }) => {
     <div className="space-y-6 animate-in fade-in slide-in-from-bottom-4 duration-500">
       <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-4">
         <div>
-          <h2 className="font-header text-3xl font-bold text-rudore-text uppercase tracking-widest">Talent Pool</h2>
-          <p className="text-rudore-text/40 font-mono text-xs mt-1 uppercase">Profils "T-Shaped" & Polyvalence</p>
+          <h2 className="font-header text-3xl font-bold text-rudore-text uppercase tracking-widest">Vivier de Talents</h2>
+          <p className="text-rudore-text/40 font-mono text-xs mt-1 uppercase">Expertises et polyvalence des membres</p>
         </div>
         <div className="flex items-center space-x-4">
           <div className="relative text-rudore-text/20 focus-within:text-rudore-orange transition-colors">
             <Search className="absolute left-3 top-1/2 transform -translate-y-1/2" size={16} />
             <input
               type="text"
-              placeholder="Chercher un talent..."
+              placeholder="Trouver un membre..."
               className="pl-10 pr-4 py-2 bg-rudore-panel border border-rudore-border focus:border-rudore-orange focus:outline-none text-xs text-rudore-text placeholder-rudore-text/50 transition-colors w-full md:w-64"
               value={search}
               onChange={(e) => setSearch(e.target.value)}
@@ -148,7 +148,7 @@ export const TalentPool: React.FC<TalentPoolProps> = ({ members }) => {
             {/* Wallet Info */}
             <div className="p-3 bg-rudore-sidebar/50 border-t border-rudore-border flex justify-between items-center">
               <div className="text-[10px] text-rudore-text">
-                <span className="font-bold text-rudore-orange">{member.wallet.currentMonthPoints} pts</span> ce mois
+                <span className="font-bold text-rudore-orange">{member.wallet.currentMonthPoints} pts</span> ce mois-ci
               </div>
               <div className="text-[10px] text-rudore-text font-mono">
                 Lifetime: {member.wallet.totalPoints}
@@ -158,7 +158,7 @@ export const TalentPool: React.FC<TalentPoolProps> = ({ members }) => {
             {/* Footer Action */}
             <div className="border-t border-rudore-border p-2">
               <button className="w-full py-2 text-[10px] font-bold uppercase tracking-widest text-rudore-text hover:text-rudore-orange hover:bg-rudore-sidebar transition-colors cursor-pointer">
-                Voir Matrice
+                Voir les compétences
               </button>
             </div>
           </div>
@@ -167,7 +167,7 @@ export const TalentPool: React.FC<TalentPoolProps> = ({ members }) => {
 
       {filteredMembers.length === 0 && (
         <div className="text-center py-12 border border-dashed border-rudore-border text-rudore-text text-sm">
-          Aucun talent ne correspond à votre recherche.
+          Aucun membre ne correspond à votre recherche.
         </div>
       )}
     </div>

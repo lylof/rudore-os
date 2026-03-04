@@ -64,9 +64,9 @@ export const Register: React.FC<RegisterProps> = ({ onLoginClick }) => {
 
         <div className="flex flex-col items-center mb-10 mt-6 relative z-10">
           <Hexagon className="text-rudore-orange fill-rudore-orange/10 mb-6" size={56} strokeWidth={1} />
-          <h1 className="text-3xl font-header font-black text-rudore-text tracking-[0.2em] uppercase">Provisionning Profil</h1>
+          <h1 className="text-3xl font-header font-black text-rudore-text tracking-[0.2em] uppercase">Créer un compte</h1>
           <p className="text-rudore-text/40 text-[11px] mt-4 text-center max-w-md uppercase tracking-wider leading-relaxed">
-            Configurez votre node au sein de l'écosystème. Définissez vos attributs opérationnels et académiques.
+            Rejoignez l'écosystème Rudore. Configurez votre profil professionnel et académique.
           </p>
         </div>
 
@@ -88,14 +88,14 @@ export const Register: React.FC<RegisterProps> = ({ onLoginClick }) => {
                   value={formData.name}
                   onChange={handleChange}
                   className="w-full bg-rudore-sidebar border border-rudore-border py-3.5 pl-12 pr-4 text-rudore-text focus:outline-none focus:border-rudore-orange transition-colors"
-                  placeholder="EX: JEAN DUPONT"
+                  placeholder="Ex: Jean Dupont"
                   required
                 />
               </div>
             </div>
 
             <div className="space-y-2">
-              <label className="text-[10px] font-bold text-rudore-text/30 uppercase tracking-[0.2em] ml-1">Identifiant Email</label>
+              <label className="text-[10px] font-bold text-rudore-text/30 uppercase tracking-[0.2em] ml-1">Adresse e-mail</label>
               <div className="relative">
                 <Mail className="absolute left-4 top-1/2 -translate-y-1/2 text-rudore-text/20" size={18} />
                 <input
@@ -104,7 +104,7 @@ export const Register: React.FC<RegisterProps> = ({ onLoginClick }) => {
                   value={formData.email}
                   onChange={handleChange}
                   className="w-full bg-rudore-sidebar border border-rudore-border py-3.5 pl-12 pr-4 text-rudore-text focus:outline-none focus:border-rudore-orange transition-colors"
-                  placeholder="NOM@RUDORE.COM"
+                  placeholder="votre.email@rudore.com"
                   required
                 />
               </div>
@@ -112,7 +112,7 @@ export const Register: React.FC<RegisterProps> = ({ onLoginClick }) => {
 
             {/* Roles */}
             <div className="space-y-2">
-              <label className="text-[10px] font-bold text-rudore-text/30 uppercase tracking-[0.2em] ml-1">Rôle Opérationnel</label>
+              <label className="text-[10px] font-bold text-rudore-text/30 uppercase tracking-[0.2em] ml-1">Poste occupé</label>
               <div className="relative">
                 <Briefcase className="absolute left-4 top-1/2 -translate-y-1/2 text-rudore-text/20" size={18} />
                 <input
@@ -120,14 +120,14 @@ export const Register: React.FC<RegisterProps> = ({ onLoginClick }) => {
                   value={formData.role}
                   onChange={handleChange}
                   className="w-full bg-rudore-sidebar border border-rudore-border py-3.5 pl-12 pr-4 text-rudore-text focus:outline-none focus:border-rudore-orange transition-colors"
-                  placeholder="EX: PROJECT MANAGER"
+                  placeholder="Ex: Project Manager"
                   required
                 />
               </div>
             </div>
 
             <div className="space-y-2">
-              <label className="text-[10px] font-bold text-rudore-text/30 uppercase tracking-[0.2em] ml-1">Parcours Académique</label>
+              <label className="text-[10px] font-bold text-rudore-text/30 uppercase tracking-[0.2em] ml-1">Formation</label>
               <div className="relative">
                 <GraduationCap className="absolute left-4 top-1/2 -translate-y-1/2 text-rudore-text/20" size={18} />
                 <input
@@ -135,7 +135,7 @@ export const Register: React.FC<RegisterProps> = ({ onLoginClick }) => {
                   value={formData.academicRole}
                   onChange={handleChange}
                   className="w-full bg-rudore-sidebar border border-rudore-border py-3.5 pl-12 pr-4 text-rudore-text focus:outline-none focus:border-rudore-orange transition-colors"
-                  placeholder="EX: ÉTUDIANT IT"
+                  placeholder="Ex: Étudiant IT"
                   required
                 />
               </div>
@@ -144,7 +144,7 @@ export const Register: React.FC<RegisterProps> = ({ onLoginClick }) => {
 
           {/* Bio */}
           <div className="space-y-2">
-            <label className="text-[10px] font-bold text-rudore-text/30 uppercase tracking-[0.2em] ml-1">Bio & Matrix Skills</label>
+            <label className="text-[10px] font-bold text-rudore-text/30 uppercase tracking-[0.2em] ml-1">Bio et compétences</label>
             <div className="relative">
               <FileText className="absolute left-4 top-4 text-rudore-text/20" size={18} />
               <textarea
@@ -159,7 +159,7 @@ export const Register: React.FC<RegisterProps> = ({ onLoginClick }) => {
           </div>
 
           <div className="space-y-2">
-            <label className="text-[10px] font-bold text-rudore-text/30 uppercase tracking-[0.2em] ml-1">Clé d'Accès</label>
+            <label className="text-[10px] font-bold text-rudore-text/30 uppercase tracking-[0.2em] ml-1">Mot de passe</label>
             <div className="relative">
               <Lock className="absolute left-4 top-1/2 -translate-y-1/2 text-rudore-text/20" size={18} />
               <input
@@ -179,7 +179,7 @@ export const Register: React.FC<RegisterProps> = ({ onLoginClick }) => {
             disabled={loading}
             className="w-full bg-rudore-text text-rudore-panel font-black py-4 hover:bg-rudore-orange hover:text-white transition-all duration-300 flex items-center justify-center space-x-3 group uppercase tracking-[0.2em] border border-rudore-border"
           >
-            {loading ? <Loader className="animate-spin" size={20} /> : <span>Initialiser Node</span>}
+            {loading ? <Loader className="animate-spin" size={20} /> : <span>Créer mon compte</span>}
           </button>
         </form>
       </div>

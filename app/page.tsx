@@ -58,7 +58,7 @@ export default function Page() {
                     fetch('/api/projects')
                 ]);
 
-                if (!membersRes.ok || !projectsRes.ok) throw new Error("Failed to load global data streams.");
+                if (!membersRes.ok || !projectsRes.ok) throw new Error("Impossible de charger les données du système.");
 
                 const membersData = await membersRes.json();
                 const projectsData = await projectsRes.json();
@@ -71,7 +71,7 @@ export default function Page() {
             } catch (err: any) {
                 if (isMounted) {
                     console.error("[ORCHESTRATOR ERROR]", err);
-                    setDataError("System Critical Error: Data nodes unreachable.");
+                    setDataError("Erreur système : connexion aux données impossible.");
                     setIsDataLoading(false);
                 }
             }
@@ -95,8 +95,8 @@ export default function Page() {
                 <div className="flex flex-col items-center justify-center h-[60vh] space-y-8 animate-pulse">
                     <div className="w-16 h-16 border-4 border-rudore-border border-t-rudore-orange rounded-full animate-spin"></div>
                     <div className="flex flex-col items-center gap-2">
-                        <h2 className="text-2xl font-header font-black uppercase tracking-[0.3em] text-rudore-text/40">Synchronisation Mainframe</h2>
-                        <p className="text-rudore-text/20 font-mono text-[10px] uppercase tracking-widest border border-rudore-border/50 p-4">Fetching core entities from Neon Node...</p>
+                        <h2 className="text-2xl font-header font-black uppercase tracking-[0.3em] text-rudore-text/40">Synchronisation</h2>
+                        <p className="text-rudore-text/20 font-mono text-[10px] uppercase tracking-widest border border-rudore-border/50 p-4">Chargement des informations en cours...</p>
                     </div>
                 </div>
             );
@@ -156,18 +156,18 @@ export default function Page() {
                         </button>
                         <div className="flex-1">
                             <h1 className="text-4xl lg:text-6xl font-header font-black text-rudore-text uppercase tracking-[-0.02em] leading-[0.85] mb-4">
-                                {currentView === 'DASHBOARD' ? 'Nexus View' :
-                                    currentView === 'TALENTS' ? 'Core Resources' :
+                                {currentView === 'DASHBOARD' ? 'Tableau de bord' :
+                                    currentView === 'TALENTS' ? 'Vivier de talents' :
                                         currentView === 'CONTRIBUTIONS' ? 'Action Ledger' :
-                                            currentView === 'KANBAN' ? 'Operations' :
-                                                currentView === 'SETTINGS' ? 'System Prefs' :
-                                                    currentView === 'PROFILE' ? 'Identity Node' :
+                                            currentView === 'KANBAN' ? 'Gestion des tâches' :
+                                                currentView === 'SETTINGS' ? 'Paramètres' :
+                                                    currentView === 'PROFILE' ? 'Mon Profil' :
                                                         currentView}
                             </h1>
                             <div className="flex items-center gap-3">
                                 <div className="h-[2px] w-12 bg-rudore-orange"></div>
                                 <p className="text-rudore-text/20 font-mono text-[9px] uppercase tracking-[0.5em] hidden sm:block">
-                                    NODE_STATUS: <span className="text-rudore-orange/60 font-black">STABLE_V4.2</span>
+                                    Statut : <span className="text-rudore-orange/60 font-black">Opérationnel</span>
                                 </p>
                             </div>
                         </div>

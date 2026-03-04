@@ -180,15 +180,15 @@ export const SquadMatrix: React.FC<SquadMatrixProps> = ({ members: initialMember
     <div className="space-y-8 animate-in fade-in duration-500">
       <div className="flex items-center justify-between">
         <div>
-          <h2 className="font-header text-3xl font-bold text-rudore-text uppercase tracking-widest">Vue d'ensemble Squads</h2>
-          <p className="text-rudore-text/40 font-mono text-xs mt-1 uppercase">Système d'Allocation Matricielle des Ressources</p>
+          <h2 className="font-header text-3xl font-bold text-rudore-text uppercase tracking-widest">Gestion des Équipes</h2>
+          <p className="text-rudore-text/40 font-mono text-xs mt-1 uppercase">Affectation et suivi des collaborateurs</p>
         </div>
         <div className="flex space-x-2">
           <button className="px-4 py-2 border border-rudore-orange text-rudore-orange text-xs font-bold uppercase tracking-wider bg-rudore-orange/10">
             Squads Actives
           </button>
           <button className="px-4 py-2 border border-rudore-border text-rudore-text text-xs font-bold uppercase tracking-wider hover:text-white hover:border-rudore-orange transition-colors">
-            Réserve de Ressources
+            Membres disponibles
           </button>
         </div>
       </div>
@@ -198,7 +198,7 @@ export const SquadMatrix: React.FC<SquadMatrixProps> = ({ members: initialMember
 
         {/* Column 1: Departments (Source) */}
         <div className="col-span-3 space-y-4">
-          <h3 className="text-xs font-bold text-rudore-text/40 uppercase tracking-[0.2em] mb-6">La Source (Départements)</h3>
+          <h3 className="text-xs font-bold text-rudore-text/40 uppercase tracking-[0.2em] mb-6">Départements</h3>
 
           {[Department.DESIGN, Department.TECH, Department.MARKETING, Department.R_AND_D].map((dept, i) => (
             <div key={i} className="group relative p-4 bg-rudore-sidebar/50 border border-rudore-border hover:border-rudore-orange transition-all">
@@ -214,7 +214,7 @@ export const SquadMatrix: React.FC<SquadMatrixProps> = ({ members: initialMember
 
         {/* Column 2: The Squad (The Matrix Intersection) */}
         <div className="col-span-6">
-          <h3 className="text-xs font-bold text-rudore-text/40 uppercase tracking-[0.2em] mb-6 text-center">Squad Active : {projectInfo.name}</h3>
+          <h3 className="text-xs font-bold text-rudore-text/40 uppercase tracking-[0.2em] mb-6 text-center">Équipe projet : {projectInfo.name}</h3>
 
           <Card className="border-rudore-orange/30 h-full">
             <div className="flex justify-between items-start mb-8 border-b border-rudore-border pb-4">
@@ -277,7 +277,7 @@ export const SquadMatrix: React.FC<SquadMatrixProps> = ({ members: initialMember
                   </div>
                 ) : (
                   <div className="p-4 border border-dashed border-rudore-border text-center text-rudore-text text-xs italic">
-                    Aucun membre assigné. Sélectionnez parmi les ressources disponibles ci-dessous.
+                    L'équipe est vide pour le moment. Ajoutez des membres depuis la liste ci-dessous.
                   </div>
                 )}
               </div>
@@ -322,7 +322,7 @@ export const SquadMatrix: React.FC<SquadMatrixProps> = ({ members: initialMember
                   </div>
                 ) : (
                   <div className="p-4 border border-dashed border-rudore-border text-center text-rudore-text text-xs italic">
-                    Aucune ressource disponible pour ce filtre.
+                    Aucun membre disponible avec ces critères.
                   </div>
                 )}
               </div>
@@ -332,7 +332,7 @@ export const SquadMatrix: React.FC<SquadMatrixProps> = ({ members: initialMember
 
         {/* Column 3: Output */}
         <div className="col-span-3 space-y-4">
-          <h3 className="text-xs font-bold text-rudore-text/40 uppercase tracking-[0.2em] mb-6 text-right">Sortie / Objectifs</h3>
+          <h3 className="text-xs font-bold text-rudore-text/40 uppercase tracking-[0.2em] mb-6 text-right">Objectifs & Livrables</h3>
 
           <div className="p-4 border border-dashed border-rudore-border text-right opacity-60">
             <h4 className="text-sm font-bold text-rudore-text uppercase">Lancement MVP</h4>

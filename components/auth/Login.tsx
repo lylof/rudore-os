@@ -50,7 +50,7 @@ export const Login: React.FC<LoginProps> = ({ onRegisterClick }) => {
         <div className="flex flex-col items-center mb-10 relative z-10">
           <Hexagon className="text-rudore-orange fill-rudore-orange/10 mb-6" size={64} strokeWidth={1} />
           <h1 className="text-4xl font-header font-black text-rudore-text tracking-[0.2em] uppercase">RUDORE OS</h1>
-          <p className="text-rudore-text/40 text-[10px] mt-3 font-mono uppercase tracking-[0.3em] border-t border-rudore-border pt-2 w-full text-center">Accès Système Sécurisé</p>
+          <p className="text-rudore-text/40 text-[10px] mt-3 font-mono uppercase tracking-[0.3em] border-t border-rudore-border pt-2 w-full text-center">Plateforme de gestion Rudore</p>
         </div>
 
         <form onSubmit={handleSubmit} className="space-y-6 relative z-10">
@@ -61,7 +61,7 @@ export const Login: React.FC<LoginProps> = ({ onRegisterClick }) => {
           )}
 
           <div className="space-y-2">
-            <label className="text-[10px] font-bold text-rudore-text/30 uppercase tracking-[0.2em] ml-1">Identifiant Email</label>
+            <label className="text-[10px] font-bold text-rudore-text/30 uppercase tracking-[0.2em] ml-1">Adresse e-mail</label>
             <div className="relative">
               <Mail className="absolute left-4 top-1/2 -translate-y-1/2 text-rudore-text/20" size={18} />
               <input
@@ -69,14 +69,14 @@ export const Login: React.FC<LoginProps> = ({ onRegisterClick }) => {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 className="w-full bg-rudore-sidebar border border-rudore-border py-4 pl-12 pr-4 text-rudore-text focus:outline-none focus:border-rudore-orange transition-colors placeholder:text-rudore-text/10"
-                placeholder="PROFIL@RUDORE.COM"
+                placeholder="votre.email@rudore.com"
                 required
               />
             </div>
           </div>
 
           <div className="space-y-2">
-            <label className="text-[10px] font-bold text-rudore-text/30 uppercase tracking-[0.2em] ml-1">Clé d'Accès</label>
+            <label className="text-[10px] font-bold text-rudore-text/30 uppercase tracking-[0.2em] ml-1">Mot de passe</label>
             <div className="relative">
               <Lock className="absolute left-4 top-1/2 -translate-y-1/2 text-rudore-text/20" size={18} />
               <input
@@ -99,7 +99,7 @@ export const Login: React.FC<LoginProps> = ({ onRegisterClick }) => {
               <Loader className="animate-spin" size={20} />
             ) : (
               <>
-                <span>Initialiser Session</span>
+                <span>Se connecter</span>
                 <ArrowRight size={18} className="group-hover:translate-x-2 transition-transform" />
               </>
             )}

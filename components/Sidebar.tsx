@@ -110,7 +110,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ currentView, onChangeView, isO
           {flags.ENABLE_TALENTS && hasPermission('TALENTS') && (
             <NavItem
               icon={UserCheck}
-              label="Talents RH"
+              label="Équipe"
               active={currentView === 'TALENTS'}
               onClick={() => { onChangeView('TALENTS'); onClose(); }}
             />
@@ -126,7 +126,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ currentView, onChangeView, isO
           {flags.ENABLE_KANBAN && hasPermission('KANBAN') && (
             <NavItem
               icon={Layers}
-              label="Gestion Projet"
+              label="Kanban"
               active={currentView === 'KANBAN'}
               onClick={() => { onChangeView('KANBAN'); onClose(); }}
             />

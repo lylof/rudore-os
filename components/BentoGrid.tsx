@@ -70,7 +70,7 @@ export const BentoGrid: React.FC<BentoGridProps> = ({ projects = [], members = [
         <Card className="col-span-1 border-l-4 border-l-blue-500">
           <div className="flex justify-between items-start">
             <div>
-              <p className="text-card-title text-rudore-text/60">Ops & Bonus (70%)</p>
+              <p className="text-card-title text-rudore-text/60">Opérations (70%)</p>
               <h2 className="text-medium-value text-rudore-text mt-2">
                 {(agencyOps / 1000000).toFixed(1)}M <span className="text-xs text-rudore-text/40 font-sans font-normal lowercase tracking-tight">XOF</span>
               </h2>
@@ -95,7 +95,7 @@ export const BentoGrid: React.FC<BentoGridProps> = ({ projects = [], members = [
 
       {/* 2. Studio Section (Large Left) */}
       <div className="col-span-12 lg:col-span-4 h-full">
-        <Card title="Studio // Ventures" subtitle="Pipeline Produit Interne" className="h-full group hover:border-rudore-border transition-colors">
+        <Card title="Studio // Projets Internes" subtitle="Pipeline de développement" className="h-full group hover:border-rudore-border transition-colors">
           <div className="space-y-4">
             {studioProjects.map((p) => (
               <div
@@ -114,14 +114,14 @@ export const BentoGrid: React.FC<BentoGridProps> = ({ projects = [], members = [
                     if (spentRatio >= 100) {
                       return (
                         <span className="text-caption-label bg-rudore-orange text-white font-black px-1.5 py-0.5 border border-rudore-orange/50 animate-pulse uppercase tracking-tighter">
-                          RED_FLAG: BUDGET_OVERRUN
+                          ALERTE : BUDGET DÉPASSÉ
                         </span>
                       );
                     }
                     if (spentRatio >= 80) {
                       return (
                         <span className="text-caption-label bg-yellow-600 text-white font-black px-1.5 py-0.5 border border-yellow-400 uppercase tracking-tighter">
-                          ⚠ WARNING: {spentRatio.toFixed(0)}% BUDGET
+                          ⚠ ATTENTION : {spentRatio.toFixed(0)}% DU BUDGET
                         </span>
                       );
                     }
@@ -135,7 +135,7 @@ export const BentoGrid: React.FC<BentoGridProps> = ({ projects = [], members = [
               onClick={() => onNavigate('STUDIO')}
               className="w-full py-3 mt-4 border border-dashed border-rudore-border text-xs text-rudore-text/40 hover:text-rudore-orange hover:border-rudore-orange uppercase tracking-widest transition-colors"
             >
-              + Incuber Nouveau Concept
+              + Nouvel Incubateur
             </button>
           </div>
         </Card>
@@ -143,7 +143,7 @@ export const BentoGrid: React.FC<BentoGridProps> = ({ projects = [], members = [
 
       {/* 3. Agency Section (Mid) */}
       <div className="col-span-12 lg:col-span-4 h-full">
-        <Card title="Agence // Services" subtitle="Livrables Clients Actifs" className="h-full group hover:border-rudore-orange/50 transition-colors cursor-pointer" onClick={() => onNavigate('AGENCY')}>
+        <Card title="Agence // Projets Clients" subtitle="Suivi des livrables" className="h-full group hover:border-rudore-orange/50 transition-colors cursor-pointer" onClick={() => onNavigate('AGENCY')}>
           <div className="space-y-6">
             {agencyProjectsData.map((project, idx) => {
               const progress = project.financials.budget > 0 ? (project.financials.spent / project.financials.budget) * 100 : 0;
@@ -179,7 +179,7 @@ export const BentoGrid: React.FC<BentoGridProps> = ({ projects = [], members = [
 
       {/* 4. Resources / Matrix (Right) */}
       <div className="col-span-12 lg:col-span-4 h-full">
-        <Card title="Ressources" subtitle="Capacité Départements" className="h-full">
+        <Card title="Effectifs" subtitle="Disponibilité par pôle" className="h-full">
           <div className="grid grid-cols-2 gap-4">
             {departments.map((dept, idx) => (
               <div
@@ -208,17 +208,17 @@ export const BentoGrid: React.FC<BentoGridProps> = ({ projects = [], members = [
           <div className="p-8 flex items-center justify-between">
             <div>
               <h3 className="text-xl font-header font-bold text-rudore-text uppercase tracking-widest">
-                Organisation Matricielle
+                Structure des Équipes
               </h3>
               <p className="text-rudore-text/50 text-sm mt-2 max-w-md">
-                Visualisez l'allocation des ressources à travers le Studio et l'Agence via notre système de squads dynamique.
+                Gérez l'affectation des membres entre le Studio et l'Agence via nos squads dynamiques.
               </p>
             </div>
             <button
               onClick={() => onNavigate('SQUADS')}
               className="px-6 py-3 bg-rudore-orange text-white font-bold uppercase tracking-wider text-xs hover:brightness-110 transition-all border border-rudore-orange shadow-sm"
             >
-              Voir Matrice Squads
+              Gérer les équipes
             </button>
           </div>
         </Card>
